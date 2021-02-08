@@ -771,13 +771,15 @@ https://blog.csdn.net/caseywei/article/details/90945295
     git fetch origin 
     git branch -a
     
-    4.切换远程分支
+    4.切换远程分支  
     $ git branch -a
     * master
       remotes/origin/HEAD -> origin/master
       remotes/origin/Release
       remotes/origin/master
     
+    
+    git checkout -b 切换分支
     $ git checkout -b myRelease origin/Release
     Branch myRelease set up to track remote branch Release from origin.
     Switched to a new branch 'myRelease'
@@ -792,6 +794,11 @@ https://blog.csdn.net/caseywei/article/details/90945295
     Merge made by recursive.
      README |    1 +
      1 files changed, 1 insertions(+), 0 deletions(-)
+     
+    6.重名分支 
+    $ git branch -m/M 
+    
+    
 
 
 #### 16.git中的远程分支被删除后还可以查看到的解决办法
@@ -802,6 +809,112 @@ https://blog.csdn.net/caseywei/article/details/90945295
     git branch -r
 
 ![](index_images/10cc4d67.png)
+
+
+
+#### 17.Github上的watch、star和fork分别是什么意思
+
+Github上的watch、star和fork分别是什么意思呢？
+
+1、watch可以用来设置接收邮件提醒
+
+2、如果想持续关注该项目就star一下
+
+3、如果想将项目拷贝一份到自己的账号下就fork
+
+fork就相当于在原本的项目分支上建立一个分支，这个分支属于你自己，你也可以任意修改。如果想将你修改后的代码整合到原有的项目中，需要做pull request操作，当然这得经过作者同意。
+
+
+##### 17.1 watch
+
+![](index_images/ec822384.png)
+
+默认每一个用户都是处于Not watching的状态，当你选择Watching，表示你以后会关注这个项目的所有动态，以后只要这个项目发生变动，如被别人提交了pull request、被别人发起了issue等等情况，
+
+你都会在自己的个人通知中心，收到一条通知消息，如果你设置了个人邮箱，那么你的邮箱也可能收到相应的邮件
+
+如下，我 watch 了开源项目android-cn/android-discuss，那么以后任何人只要在这个项目下提交了 issue 或者在 issue 下面有任何留言，
+
+我的通知中心就会通知我。如果你配置了邮箱，你还可能会因此不断的收到邮件。
+
+
+![](index_images/b3314cd9.png)
+
+
+如果你不想接受这些通知，那么点击 Not Watching 即可。
+
+另外这里有一篇文章讲 如何正确接收 GitHub 的消息邮件，很不错的一篇文章，推荐大家看看。
+
+>如何正确接收 GitHub 的消息邮件  
+https://github.com/cssmagic/blog/issues/49
+
+
+##### 17.2 star
+
+star 翻译过来应该是星星，但是这个翻译没任何具体意义，这里解释为`关注`或者`点赞`更合适，当你点击 star,表示你喜欢这个项目或者通俗点，可以把他理解成朋友圈的点赞吧，表示对这个项目的支持。
+
+不过相比朋友圈的点赞，github 里面会有一个列表，专门收集了你所有 start 过的项目，
+
+点击 github 个人头像，可以看到 your star的条目，点击就可以查看你 star 过的所有项目了。如下图
+
+![](index_images/0a2cf065.png)
+
+
+
+
+##### 17.3 fork
+
+当选择 fork，相当于你自己有了一份原项目的拷贝，当然这个拷贝只是针对当时的项目文件，如果后续原项目文件发生改变，你必须通过其他的方式去同步。
+
+一般来说，我们不需要使用 fork 这个功能，除非有一些项目，可能存在 bug 或者可以继续优化的地方，你想帮助原项目作者去完善这个项目或者单纯的想在原来项目基础上己维护一个属于自己项目（比如我 fork 的 AndroidWeekly 客户端，那么你可以 fork 一份项目下来，然后自己对这个项目进行修改完善，当你觉得项目没问题了，你就可以尝试发起 pull request 给原项目作者了。
+
+然后就静静等待他的 merge 邮件通知了。
+
+我看到很多人错误的在使用 fork。很多人把 fork 当成了收藏一样的功能，包括一开始使用 github 的我，每次看到一个好的项目就先 fork，
+
+因为这样，就可以我的 repository(仓库)列表下查看 fork 的项目了。其实你完全可以使用 star 来达到这个目的。
+
+
+
+
+##### 17.4 使用建议
+
+1、对于一些可能会经常发生变化的会不定期更新的好项目 多使用 watch.
+
+比如 android-cn 团队的 android-discuss 项目，
+
+你就可以 watching 它，这里面都是一些关于 Android 技术的交流，如果有任何新问题，你都可以收到通知，你可以查看别人的回答，
+
+你可以回答别人提出的问题，这是一个很好的学习成长方式。
+
+其他值得watch的项目还有很多，比如 github 上很多的 Awesome 系列的项目,如 Awesome-MaterialDesign 等，你 watch 这些项目了，
+
+只要项目新增一些好玩好用的东西，你就会收到通知。
+
+我在知乎上看到有人问这样的问题，说 github 上有哪些值得 watch 的项目，其实有很多，我自己也整理了一些，但是没放到 github.
+
+值得注意的是，如果 watch多了，你可能会被无休止的邮件通知烦死（邮件通知可设置），因为被 watch 项目有任何留言、PR等更新都会触发通知，所以做好权衡。
+
+2、喜欢一个项目就 star 它吧~
+
+3、修改开源项目就使用 fork，这样你就可以在原项目的基础上，对项目进行修改提交，现在你是这个项目的主人啦~
+小细节
+
+有些时候，你看到一个项目的 star 数有很多，你就想知道到底都有那些人 star 了这个项目，或者 fork 了这个项目，
+
+但是环顾一圈，你却找不到一个入口，后来自己不经意的发现，只要`点击 star 傍边的数字`，就可以查看有哪些人 star 了这个项目。
+
+是不是有点意思，现在你就可以去试试，watch、fork上面的数字都是可以点击的，道理一样。
+
+
+
+
+
+
+
+
+
+
 
 
 
