@@ -922,6 +922,7 @@ star 翻译过来应该是星星，但是这个翻译没任何具体意义，这
 
 
 
+
 # Python MongoDB 操作
 Pycharm编辑器下mongo数据库的可视化配置安装(结果安装了没有可视化功能)  
 添加mongo插件和配置mongo shell地址(Shell 是一个应用程序，它连接了用户和 Linux 内核，让用户能够更加高效、安全、低成本地使用 Linux 内核，这就是 Shell 的本质。)  
