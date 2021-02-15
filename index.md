@@ -907,6 +907,23 @@ star 翻译过来应该是星星，但是这个翻译没任何具体意义，这
 是不是有点意思，现在你就可以去试试，watch、fork上面的数字都是可以点击的，道理一样。
 
 
+#### 18.github上修改仓库的语言
+
+问题原因: github 是根据项目里文件数目最多的文件类型,识别项目类型.这个够傻.
+
+解决办法:项目根目录添加 .gitattributes 文件, 内容如下 :
+
+>*.swift linguist-language=objective-c
+>*.class linguist-language=Java
+
+作用: 把项目里的 .swift 文件, 识别成 objective-c 语言. 这个副作用危害不大.
+
+![](index_images/fe61bdbc.png)
+
+
+
+
+
 
 
 
