@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e544215-fad6-4ab4-bf05-7f5cd6754375" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,8 +33,8 @@
         <entry file="file://$PROJECT_DIR$/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="293">
-                <caret line="923" column="8" selection-start-line="923" selection-start-column="8" selection-end-line="923" selection-end-column="8" />
+              <first_editor relative-caret-position="199">
+                <caret line="943" selection-start-line="943" selection-end-line="943" />
                 <folding>
                   <element signature="e#0#14#0" expanded="true" />
                   <element signature="e#0#14#0" expanded="true" />
@@ -121,7 +119,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="6" />
     <option name="width" value="1920" />
     <option name="height" value="1039" />
@@ -217,12 +215,12 @@
       <workItem from="1613413459123" duration="242000" />
       <workItem from="1613959959279" duration="4600000" />
       <workItem from="1614089669946" duration="1287000" />
-      <workItem from="1614240498737" duration="1501000" />
+      <workItem from="1614240498737" duration="3523000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="179689000" />
+    <option name="totallyTimeSpent" value="181711000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -234,7 +232,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="5" y="0" width="1536" height="831" extended-state="0" />
+    <frame x="5" y="0" width="1536" height="831" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.943609" side_tool="true" visible="true" weight="0.20568335" />
@@ -314,8 +312,8 @@
     <entry file="file://$PROJECT_DIR$/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="293">
-            <caret line="923" column="8" selection-start-line="923" selection-start-column="8" selection-end-line="923" selection-end-column="8" />
+          <first_editor relative-caret-position="199">
+            <caret line="943" selection-start-line="943" selection-end-line="943" />
             <folding>
               <element signature="e#0#14#0" expanded="true" />
               <element signature="e#0#14#0" expanded="true" />
