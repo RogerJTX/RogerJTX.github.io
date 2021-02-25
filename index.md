@@ -921,10 +921,32 @@ star 翻译过来应该是星星，但是这个翻译没任何具体意义，这
 ![](index_images/fe61bdbc.png)
 
 
+#### 19.修改github主题
 
+https://blog.csdn.net/qq_40915439/article/details/102154184
 
+    首先找到自己喜欢的博客主题https://hexo.io/themes/。
+    点击进入都有该主题在该博主git下的源码。
+    如果会使用git，就直接使用git命令进行下载（克隆）.(下面是我自己选择的主题）
+    git clone  https://github.com/smackgg/hexo-theme-smackdown themes/smackdown
+    如果不会使用git命令，就在该博主的git上进行下载
+    
+    当你把这个文件下载到本地之后，就需要修改配置文件。首先找到自己博客文件夹的地址，将下载的文件夹放到该目录下。
+    打开该目录下的_config.yml文件，进行修改：
+    
+    修改为自己的主题名
+    接下来进行测试，是否修改好
+    在此目录下打开git
+    输入 hexo clean进行清理缓存
+    输入 hexo g重新生成database
+    输入 hexo s进行本地测试，在命令框会出现一个链接，在浏览器出入此链接看本地博客是否更换主题
+    成功后，输入 hexo d上传远程仓库。
+    好了。我们的博客就更新好了，是不是很简单呢。
+    如果你还没有属于自己的博客，那就赶快动手创建一个
 
+需要安装git 和 nodejs 和 hexo
 
+https://www.cnblogs.com/visugar/p/6821777.html
 
 
 
