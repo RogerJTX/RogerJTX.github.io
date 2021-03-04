@@ -1344,6 +1344,61 @@ col2 = db2.res_kb_expert_index
     col.update({'_id':i['_id']}, {'$unset':{'compound_split with_3':1}})
 
 
+#### 22.x.deleted_count 计算delete_many中删除的文档
+
+我们可以使用 delete_many() 方法来删除多个文档，该方法第一个参数为查询对象，指定要删除哪些数据。
+
+删除所有 name 字段中以 F 开头的文档:
+
+```python
+
+#!/usr/bin/python3
+ 
+import pymongo
+ 
+myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+mydb = myclient["runoobdb"]
+mycol = mydb["sites"]
+ 
+myquery = { "name": {"$regex": "^F"} }
+ 
+x = mycol.delete_many(myquery)
+ 
+print(x.deleted_count, "个文档已删除")
+
+```
+
+    输出结果为：
+    
+    1 个文档已删除
+
+
+
+> 删除集合中的所有文档
+
+delete_many() 方法如果传入的是一个空的查询对象，则会删除集合中的所有文档：
+```python
+
+#!/usr/bin/python3
+
+import pymongo
+ 
+myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+mydb = myclient["runoobdb"]
+mycol = mydb["sites"]
+ 
+x = mycol.delete_many({})
+ 
+print(x.deleted_count, "个文档已删除")
+
+
+```
+
+    输出结果为：
+    
+    5 个文档已删除
+
+
 
 
 
