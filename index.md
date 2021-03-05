@@ -2426,9 +2426,27 @@ https://blog.csdn.net/tony_wong/article/details/39638887
 
 
 
+# 环境配置 软件安装
+
+#### 1.cuda 和 torch
+
+    报错： 
+    The NVIDIA driver on your system is too old (found version 8000).
+    Please update your GPU driver by downloading and installing a new
 
 
+    原因：
+    并不是说你的 CUDA 驱动版本太低了，而是 Pytorch 的版本和 CUDA 不匹配。
 
+    解决方法：
+    从新安装torch 和torchvision
+    对应如下图
+    
+    # CUDA 10.1
+    pip install torch==1.7.1+cu101 torchvision==0.8.2+cu101 torchaudio==0.7.2 -f https://download.pytorch.org/whl/torch_stable.html
+    
+    
+![](index_images/9d989adb.png)
 
 
 

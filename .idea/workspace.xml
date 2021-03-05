@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e544215-fad6-4ab4-bf05-7f5cd6754375" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/index_images/9d989adb.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
     </list>
@@ -34,8 +35,8 @@
         <entry file="file://$PROJECT_DIR$/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="598">
-                <caret line="1363" selection-start-line="1363" selection-end-line="1363" />
+              <first_editor relative-caret-position="893">
+                <caret line="2442" column="9" selection-start-line="2442" selection-start-column="9" selection-end-line="2442" selection-end-column="9" />
                 <folding>
                   <element signature="e#0#14#0" expanded="true" />
                   <element signature="e#0#14#0" expanded="true" />
@@ -45,6 +46,8 @@
                   <element signature="e#0#9#0" expanded="true" />
                   <element signature="e#0#11#0" expanded="true" />
                   <element signature="e#0#32#0" expanded="true" />
+                  <element signature="e#14#24#0" expanded="true" />
+                  <element signature="e#156#169#0" expanded="true" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -65,7 +68,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>expression</find>
       <find>Crawler</find>
       <find>crawler</find>
       <find>规范代码def 中参数的设置 方便以后修改函数</find>
@@ -95,6 +97,7 @@
       <find>连续</find>
       <find>unset</find>
       <find>rename</find>
+      <find>exists</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;</replace>
@@ -121,29 +124,16 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-990" />
+    <option name="x" value="-243" />
     <option name="y" value="-2160" />
-    <option name="width" value="2304" />
-    <option name="height" value="1247" />
+    <option name="width" value="3083" />
+    <option name="height" value="1991" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="RogerJTX.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RogerJTX.github.io" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -218,12 +208,13 @@
       <workItem from="1613959959279" duration="4600000" />
       <workItem from="1614089669946" duration="1287000" />
       <workItem from="1614240498737" duration="3557000" />
-      <workItem from="1614763695951" duration="2924000" />
+      <workItem from="1614763695951" duration="4936000" />
+      <workItem from="1614910297370" duration="826000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="184669000" />
+    <option name="totallyTimeSpent" value="187507000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -235,10 +226,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-997" y="-2160" width="1536" height="831" extended-state="0" />
+    <frame x="-499" y="-2160" width="2055" height="1327" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" id="Structure" order="0" sideWeight="0.943609" side_tool="true" visible="true" weight="0.15967524" />
+      <window_info active="true" id="Structure" order="0" sideWeight="0.943609" side_tool="true" visible="true" weight="0.09714572" />
       <window_info id="Favorites" order="1" sideWeight="0.50075185" side_tool="true" weight="0.08462104" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -259,7 +250,7 @@
       <window_info anchor="right" content_ui="combo" id="Project" order="3" sideWeight="0.62880886" weight="0.11840325" />
       <window_info anchor="right" id="SciView" order="4" weight="0.32934132" />
       <window_info anchor="right" id="Database" order="5" sideWeight="0.49853373" weight="0.32934132" />
-      <window_info anchor="right" x="0" y="0" width="465" height="926" id="Documentation" order="6" show_stripe_button="false" sideWeight="0.37119114" side_tool="true" weight="0.11840325" />
+      <window_info anchor="right" x="0" y="0" width="465" height="926" id="Documentation" order="6" sideWeight="0.37119114" side_tool="true" visible="true" weight="0.059589382" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,8 +299,8 @@
     <entry file="file://$PROJECT_DIR$/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="598">
-            <caret line="1363" selection-start-line="1363" selection-end-line="1363" />
+          <first_editor relative-caret-position="893">
+            <caret line="2442" column="9" selection-start-line="2442" selection-start-column="9" selection-end-line="2442" selection-end-column="9" />
             <folding>
               <element signature="e#0#14#0" expanded="true" />
               <element signature="e#0#14#0" expanded="true" />
@@ -319,6 +310,8 @@
               <element signature="e#0#9#0" expanded="true" />
               <element signature="e#0#11#0" expanded="true" />
               <element signature="e#0#32#0" expanded="true" />
+              <element signature="e#14#24#0" expanded="true" />
+              <element signature="e#156#169#0" expanded="true" />
             </folding>
           </first_editor>
           <second_editor />
