@@ -1775,6 +1775,48 @@ https://blog.csdn.net/github_33934628/article/details/50815430
 
 ![](index_images/80c7b5fa.png)
 
+
+#### 23.实时查看linux中gpu的使用情况
+
+watch的基本用法是：
+
+$ watch [options]  command
+
+最常用的参数是 -n， 后面指定是每多少秒来执行一次命令。
+
+监视显存：我们设置为每 10s 显示一次显存的情况：
+
+$ watch -n 10 nvidia-smi
+
+
+
+
+![](index_images/d2265227.png)
+
+![](index_images/448f8f96.png)
+
+
+具体如下所示：重要的参数主要是温度、内存使用、GPU占有率，具体如下红框所示。
+
+![](index_images/08b3caec.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Vim命令
 
 #### 1.Vim模式介绍与命令合集
@@ -2447,6 +2489,9 @@ https://blog.csdn.net/tony_wong/article/details/39638887
     
     
 ![](index_images/9d989adb.png)
+
+
+
 
 
 

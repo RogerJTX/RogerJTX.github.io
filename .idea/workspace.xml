@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e544215-fad6-4ab4-bf05-7f5cd6754375" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/index_images/9d989adb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index_images/d2265227.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
     </list>
@@ -35,8 +35,8 @@
         <entry file="file://$PROJECT_DIR$/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="893">
-                <caret line="2442" column="9" selection-start-line="2442" selection-start-column="9" selection-end-line="2442" selection-end-column="9" />
+              <first_editor relative-caret-position="358">
+                <caret line="1780" lean-forward="true" selection-start-line="1780" selection-end-line="1780" />
                 <folding>
                   <element signature="e#0#14#0" expanded="true" />
                   <element signature="e#0#14#0" expanded="true" />
@@ -124,10 +124,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-243" />
+    <option name="x" value="363" />
     <option name="y" value="-2160" />
-    <option name="width" value="3083" />
-    <option name="height" value="1991" />
+    <option name="width" value="2477" />
+    <option name="height" value="2123" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -209,12 +209,12 @@
       <workItem from="1614089669946" duration="1287000" />
       <workItem from="1614240498737" duration="3557000" />
       <workItem from="1614763695951" duration="4936000" />
-      <workItem from="1614910297370" duration="826000" />
+      <workItem from="1614910297370" duration="2189000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="187507000" />
+    <option name="totallyTimeSpent" value="188870000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -226,10 +226,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-499" y="-2160" width="2055" height="1327" extended-state="0" />
+    <frame x="-95" y="-2160" width="1651" height="1415" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" id="Structure" order="0" sideWeight="0.943609" side_tool="true" visible="true" weight="0.09714572" />
+      <window_info active="true" id="Structure" order="0" sideWeight="0.943609" side_tool="true" visible="true" weight="0.1217828" />
       <window_info id="Favorites" order="1" sideWeight="0.50075185" side_tool="true" weight="0.08462104" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -242,7 +242,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32986626" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.39196676" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.36523736" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32940018" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -250,7 +250,7 @@
       <window_info anchor="right" content_ui="combo" id="Project" order="3" sideWeight="0.62880886" weight="0.11840325" />
       <window_info anchor="right" id="SciView" order="4" weight="0.32934132" />
       <window_info anchor="right" id="Database" order="5" sideWeight="0.49853373" weight="0.32934132" />
-      <window_info anchor="right" x="0" y="0" width="465" height="926" id="Documentation" order="6" sideWeight="0.37119114" side_tool="true" visible="true" weight="0.059589382" />
+      <window_info anchor="right" x="0" y="0" width="465" height="926" id="Documentation" order="6" sideWeight="0.37119114" side_tool="true" visible="true" weight="0.07470182" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,8 +299,8 @@
     <entry file="file://$PROJECT_DIR$/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="893">
-            <caret line="2442" column="9" selection-start-line="2442" selection-start-column="9" selection-end-line="2442" selection-end-column="9" />
+          <first_editor relative-caret-position="358">
+            <caret line="1780" lean-forward="true" selection-start-line="1780" selection-end-line="1780" />
             <folding>
               <element signature="e#0#14#0" expanded="true" />
               <element signature="e#0#14#0" expanded="true" />
