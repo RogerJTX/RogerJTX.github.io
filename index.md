@@ -797,7 +797,11 @@ https://blog.csdn.net/caseywei/article/details/90945295
      
     6.重名分支 
     $ git branch -m/M 
-    
+
+
+合并分支
+
+![](index_images/e3cea522.png)
     
 
 
@@ -949,8 +953,19 @@ https://www.cnblogs.com/visugar/p/6821777.html
 
 
 
+#### 20.git 查看自己的秘匙和秘匙密文地址
 
+https://blog.csdn.net/iceking66/article/details/80563716
 
+查看秘钥文件夹位置（路径地址）
+
+1. 输入  cd ~/.ssh  进入到.ssh 文件夹
+
+2.输入 ls 查看.ssh 文件夹里面有 id_rsa  id_rsa.pub  known_hosts 文件
+
+3.输入pwd 查看.ssh 文件路径位置地址
+
+![](index_images/ec532fd5.png)
 
 
 
