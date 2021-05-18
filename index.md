@@ -959,7 +959,7 @@ https://blog.csdn.net/iceking66/article/details/80563716
 
 查看秘钥文件夹位置（路径地址）
 
-1. 输入  cd ~/.ssh  进入到.ssh 文件夹
+1.输入 cd ~/.ssh  进入到.ssh 文件夹
 
 2.输入 ls 查看.ssh 文件夹里面有 id_rsa  id_rsa.pub  known_hosts 文件
 
@@ -967,13 +967,18 @@ https://blog.csdn.net/iceking66/article/details/80563716
 
 ![](index_images/ec532fd5.png)
 
+#### 21.git查看当前项目的给git用户名，以及修改当前项目的git用户名
 
+给当前git项目指定git账户
 
+![](index_images/cf1cfd97.png)
 
+![](index_images/2449d1d4.png)
 
-
-
-
+    git config user.name   //获取当前登录的用户
+    git config user.email  //获取当前登录用户的邮箱
+    
+    git config user.name 'xxxx..github_name'
 
 # Python MongoDB 操作
 Pycharm编辑器下mongo数据库的可视化配置安装(结果安装了没有可视化功能)  
@@ -5528,6 +5533,16 @@ print (re.findall(r"a(.+?)b",str))
 time = re.findall(r'",s="(.+?)";', time):
 
 ![](index_images/9b580864.png)
+
+正则表达式.匹配不到\n 的文本
+
+    使用正则表达式来获取一段文本中的任意字符,(.*)
+    结果运行之后才发现，无法获得换行之后的文本。
+    因为“.”(点符号)匹配的是除了换行符“\n”以外的所有字符。
+    
+    以下为正确的正则表达式匹配规则：
+    (.)替换为([\s\S])即可
+
 
 #### 3.列表取除了第一个数的其他数 https://blog.csdn.net/jialibang/article/details/84989279
 ```
