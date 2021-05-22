@@ -1847,11 +1847,24 @@ $ watch -n 10 nvidia-smi
 ![](index_images/08b3caec.png)
 
 
+#### 24.linux at命令 设置一次性定时任务
 
+定时执行一次python文件
 
+    方法一：
+    at 19:00 # 进入内部命令模式
+    at > python test.py
+    ctrl + D #保存退出 
+    
+    方法二：
+    at now + 2 minutes
+    at > python test.py
+    ctrl + D #保存退出 
+    
+    at -l
+    at -c +(任务编号)
 
-
-
+参考：https://blog.csdn.net/a1414345/article/details/74857226?utm_term=linux%E6%B7%BB%E5%8A%A0%E4%B8%80%E6%AC%A1%E6%80%A7%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1&utm_medium=distribute.pc_aggpage_search_result.none-task-blog-2~all~sobaiduweb~default-5-74857226&spm=3001.4430
 
 
 

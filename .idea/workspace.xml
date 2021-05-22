@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e544215-fad6-4ab4-bf05-7f5cd6754375" name="Default Changelist" comment="" />
+    <list default="true" id="5e544215-fad6-4ab4-bf05-7f5cd6754375" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,10 +34,9 @@
         <entry file="file://$PROJECT_DIR$/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="171">
-                <caret line="974" lean-forward="true" selection-start-line="974" selection-end-line="974" />
+              <first_editor relative-caret-position="621">
+                <caret line="1851" column="14" selection-start-line="1851" selection-start-column="14" selection-end-line="1851" selection-end-column="14" />
                 <folding>
-                  <element signature="e#0#14#0" expanded="true" />
                   <element signature="e#0#14#0" expanded="true" />
                   <element signature="e#0#11#0" expanded="true" />
                   <element signature="e#0#9#0" expanded="true" />
@@ -42,8 +44,6 @@
                   <element signature="e#0#9#0" expanded="true" />
                   <element signature="e#0#11#0" expanded="true" />
                   <element signature="e#0#32#0" expanded="true" />
-                  <element signature="e#14#24#0" expanded="true" />
-                  <element signature="e#156#169#0" expanded="true" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -115,15 +115,18 @@
         <option value="$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/1836530_2_1/expert_article_api_all_experts.py" />
         <option value="$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/1836530_2_4/expert_article_api_all_experts.py" />
         <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/919138_2_0/baidubaike_person_basic.py" />
+        <option value="$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/919138_6_11/test.py" />
+        <option value="$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/919138_6_12/test.py" />
         <option value="$PROJECT_DIR$/index.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="114" />
+    <option name="y" value="-2150" />
+    <option name="width" value="3864" />
+    <option name="height" value="2184" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -216,11 +219,13 @@
       <workItem from="1619662708007" duration="1208000" />
       <workItem from="1620263354788" duration="814000" />
       <workItem from="1621243614779" duration="3044000" />
+      <workItem from="1621493642110" duration="5280000" />
+      <workItem from="1621675931730" duration="1168000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="204832000" />
+    <option name="totallyTimeSpent" value="211280000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -232,9 +237,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
+    <frame x="-261" y="-2153" width="2576" height="1456" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Structure" order="0" sideWeight="0.943609" side_tool="true" visible="true" weight="0.09481038" />
+      <window_info active="true" id="Structure" order="0" sideWeight="0.943609" side_tool="true" visible="true" weight="0.08737093" />
       <window_info id="Favorites" order="1" sideWeight="0.50075185" side_tool="true" weight="0.08462104" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -247,7 +253,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32986626" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.30088496" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.59396434" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32940018" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -255,7 +261,7 @@
       <window_info anchor="right" content_ui="combo" id="Project" order="3" sideWeight="0.6269006" weight="0.11802974" />
       <window_info anchor="right" id="SciView" order="4" weight="0.32934132" />
       <window_info anchor="right" id="Database" order="5" sideWeight="0.49224806" weight="0.3284251" />
-      <window_info anchor="right" x="0" y="0" width="465" height="926" id="Documentation" order="6" sideWeight="0.50775194" side_tool="true" weight="0.32791957" />
+      <window_info anchor="right" x="0" y="0" width="465" height="926" id="Documentation" order="6" sideWeight="0.50775194" side_tool="true" weight="0.32737386" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,25 +311,22 @@
     <entry file="file://G:/mayun_code/university_expert/harbin_gongye_univ/extract/experience_extract_01.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="171">
-            <caret line="974" lean-forward="true" selection-start-line="974" selection-end-line="974" />
-            <folding>
-              <element signature="e#0#14#0" expanded="true" />
-              <element signature="e#0#14#0" expanded="true" />
-              <element signature="e#0#11#0" expanded="true" />
-              <element signature="e#0#9#0" expanded="true" />
-              <element signature="e#0#13#0" expanded="true" />
-              <element signature="e#0#9#0" expanded="true" />
-              <element signature="e#0#11#0" expanded="true" />
-              <element signature="e#0#32#0" expanded="true" />
-              <element signature="e#14#24#0" expanded="true" />
-              <element signature="e#156#169#0" expanded="true" />
-            </folding>
-          </first_editor>
-          <second_editor />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/919138_2_1/baidubaike_person_basic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7875" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/919138_2_0/baidubaike_person_basic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/919138_2_2/baidubaike_person_basic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="699" column="44" lean-forward="true" selection-start-line="699" selection-start-column="44" selection-end-line="699" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -331,6 +334,39 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/919138_6_11/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/919138_6_12/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="25" lean-forward="true" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="621">
+            <caret line="1851" column="14" selection-start-line="1851" selection-start-column="14" selection-end-line="1851" selection-end-column="14" />
+            <folding>
+              <element signature="e#0#14#0" expanded="true" />
+              <element signature="e#0#11#0" expanded="true" />
+              <element signature="e#0#9#0" expanded="true" />
+              <element signature="e#0#13#0" expanded="true" />
+              <element signature="e#0#9#0" expanded="true" />
+              <element signature="e#0#11#0" expanded="true" />
+              <element signature="e#0#32#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
