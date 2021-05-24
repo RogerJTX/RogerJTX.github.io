@@ -993,7 +993,9 @@ https://blog.csdn.net/iceking66/article/details/80563716
 
 ![](index_images/ec532fd5.png)
 
-#### 21.git查看当前项目的给git用户名，以及修改当前项目的git用户名
+#### 21.git多账号切换
+
+查看当前项目的给git用户名，以及修改当前项目的git用户名
 
 给当前git项目指定git账户
 
