@@ -2527,6 +2527,22 @@ __pycache__文件夹的意义何在呢？ 因为第一次执行代码的时候�
 
 https://blog.csdn.net/tony_wong/article/details/39638887
 
+### 14.数据仓库DW层
+
+操作性数据
+
+ODS(Operational Data Store) ，是作为数据库到数据仓库的一种过渡，ODS的数据结构一般与数据来源保持一致，便于减少ETL的工作复杂性，而且ODS的数据周期一般比较短，ODS的数据最终流入DW。
+
+数据仓库
+
+DW (Data Warehouse)，是数据的归宿，这里保持所有从ODS到来的数据，并长期保存，而且这些数据不会被修改。
+
+数据集市
+
+DM(Data Mart) ，为了特定的应用目的，而从数据仓库中独立出来的一部分数据，也可称为主题数据。DM结构清晰，针对性强、拓展性好。
+
+参考：https://blog.csdn.net/weixin_32940141/article/details/112752611
+
 
 
 # 环境配置 软件安装
