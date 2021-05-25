@@ -34,8 +34,8 @@
         <entry file="file://$PROJECT_DIR$/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="248">
-                <caret line="2529" column="7" selection-start-line="2529" selection-start-column="7" selection-end-line="2529" selection-end-column="7" />
+              <first_editor relative-caret-position="189">
+                <caret line="1559" selection-start-line="1559" selection-end-line="1559" />
                 <folding>
                   <element signature="e#0#14#0" expanded="true" />
                   <element signature="e#0#14#0" expanded="true" />
@@ -139,11 +139,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-2941" />
-    <option name="y" value="-1097" />
-    <option name="width" value="1938" />
-    <option name="height" value="1098" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="381" />
+    <option name="y" value="-1967" />
+    <option name="width" value="1937" />
+    <option name="height" value="1049" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -278,12 +278,12 @@
       <workItem from="1621243614779" duration="3044000" />
       <workItem from="1621493642110" duration="5280000" />
       <workItem from="1621675931730" duration="3141000" />
-      <workItem from="1621824029262" duration="6723000" />
+      <workItem from="1621824029262" duration="7172000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="219976000" />
+    <option name="totallyTimeSpent" value="220425000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -295,10 +295,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2939" y="-1095" width="1550" height="878" extended-state="6" />
+    <frame x="-83" y="-2031" width="1291" height="699" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" id="Structure" order="0" sideWeight="0.943609" side_tool="true" visible="true" weight="0.10924933" />
+      <window_info active="true" id="Structure" order="0" sideWeight="0.943609" side_tool="true" visible="true" weight="0.13219789" />
       <window_info id="Favorites" order="1" sideWeight="0.50075185" side_tool="true" weight="0.08462104" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -311,7 +311,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32986626" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.25097528" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32711864" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.35760728" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -429,8 +429,8 @@
     <entry file="file://$PROJECT_DIR$/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="248">
-            <caret line="2529" column="7" selection-start-line="2529" selection-start-column="7" selection-end-line="2529" selection-end-column="7" />
+          <first_editor relative-caret-position="189">
+            <caret line="1559" selection-start-line="1559" selection-end-line="1559" />
             <folding>
               <element signature="e#0#14#0" expanded="true" />
               <element signature="e#0#14#0" expanded="true" />
