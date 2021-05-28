@@ -34,8 +34,8 @@
         <entry file="file://$PROJECT_DIR$/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="189">
-                <caret line="1559" selection-start-line="1559" selection-end-line="1559" />
+              <first_editor relative-caret-position="546">
+                <caret line="1880" column="22" lean-forward="true" selection-start-line="1880" selection-start-column="4" selection-end-line="1880" selection-end-column="22" />
                 <folding>
                   <element signature="e#0#14#0" expanded="true" />
                   <element signature="e#0#14#0" expanded="true" />
@@ -72,8 +72,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>fuzzywuzzy</find>
-      <find>理解continue</find>
       <find>规范代码def</find>
       <find>c++</find>
       <find>c++ 基础</find>
@@ -102,6 +100,8 @@
       <find>list_experience_judge</find>
       <find>config</find>
       <find>user.name</find>
+      <find>4.1</find>
+      <find>top</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;</replace>
@@ -140,10 +140,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="381" />
-    <option name="y" value="-1967" />
-    <option name="width" value="1937" />
-    <option name="height" value="1049" />
+    <option name="x" value="282" />
+    <option name="y" value="-2160" />
+    <option name="width" value="2148" />
+    <option name="height" value="1800" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -278,12 +278,13 @@
       <workItem from="1621243614779" duration="3044000" />
       <workItem from="1621493642110" duration="5280000" />
       <workItem from="1621675931730" duration="3141000" />
-      <workItem from="1621824029262" duration="7172000" />
+      <workItem from="1621824029262" duration="8603000" />
+      <workItem from="1622185655345" duration="1782000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="220425000" />
+    <option name="totallyTimeSpent" value="223638000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -295,10 +296,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-83" y="-2031" width="1291" height="699" extended-state="0" />
+    <frame x="-149" y="-2160" width="1432" height="1200" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" id="Structure" order="0" sideWeight="0.943609" side_tool="true" visible="true" weight="0.13219789" />
+      <window_info active="true" id="Structure" order="0" sideWeight="0.943609" side_tool="true" visible="true" weight="0.213246" />
       <window_info id="Favorites" order="1" sideWeight="0.50075185" side_tool="true" weight="0.08462104" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -311,7 +312,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32986626" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32711864" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32767403" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.35760728" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -319,7 +320,7 @@
       <window_info anchor="right" content_ui="combo" id="Project" order="3" sideWeight="0.5506608" weight="0.14812332" />
       <window_info anchor="right" id="SciView" order="4" weight="0.32934132" />
       <window_info anchor="right" id="Database" order="5" sideWeight="0.49224806" weight="0.3284251" />
-      <window_info anchor="right" x="0" y="0" width="465" height="926" id="Documentation" order="6" show_stripe_button="false" sideWeight="0.4493392" side_tool="true" weight="0.14812332" />
+      <window_info anchor="right" x="0" y="0" width="465" height="926" id="Documentation" order="6" show_stripe_button="false" sideWeight="0.4493392" side_tool="true" weight="0.1477438" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -379,58 +380,17 @@
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/919138_6_15/baidubaike_import_to_project_table.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/919138_7_16/expert_article_api_each_project.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/919138_7_17/expert_article_api_import_to_project.py" />
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/593500_2_2/lanzhoudaxue_article_detail.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="67" column="12" lean-forward="true" selection-start-line="67" selection-start-column="12" selection-end-line="67" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/593500_2_1/expert_article_api_import_to_project.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/593500_2_4/expert_article_api_import_to_project.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1260" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/593500_2_5/expert_article_api_import_to_project.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="925">
-          <caret line="69" column="16" lean-forward="true" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/593500_2_6/expert_article_api_each_project.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3993">
-          <caret line="340" column="38" lean-forward="true" selection-start-line="340" selection-start-column="38" selection-end-line="340" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/593500_2_8/expert_article_api_import_to_project.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="63" column="37" selection-start-line="63" selection-start-column="37" selection-end-line="63" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/593500_2_2/lanzhoudaxue_article_detail.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/593500_2_1/expert_article_api_import_to_project.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/593500_2_4/expert_article_api_import_to_project.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/593500_2_5/expert_article_api_import_to_project.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/593500_2_6/expert_article_api_each_project.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/593500_2_8/expert_article_api_import_to_project.py" />
     <entry file="file://$PROJECT_DIR$/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="189">
-            <caret line="1559" selection-start-line="1559" selection-end-line="1559" />
+          <first_editor relative-caret-position="546">
+            <caret line="1880" column="22" lean-forward="true" selection-start-line="1880" selection-start-column="4" selection-end-line="1880" selection-end-column="22" />
             <folding>
               <element signature="e#0#14#0" expanded="true" />
               <element signature="e#0#14#0" expanded="true" />
@@ -443,6 +403,13 @@
             </folding>
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
         </state>
       </provider>
     </entry>
