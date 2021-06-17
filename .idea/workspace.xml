@@ -34,15 +34,9 @@
         <entry file="file://$PROJECT_DIR$/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="546">
-                <caret line="1880" column="22" lean-forward="true" selection-start-line="1880" selection-start-column="4" selection-end-line="1880" selection-end-column="22" />
+              <first_editor relative-caret-position="-25">
+                <caret line="6081" lean-forward="true" selection-start-line="6081" selection-end-line="6081" />
                 <folding>
-                  <element signature="e#0#14#0" expanded="true" />
-                  <element signature="e#0#14#0" expanded="true" />
-                  <element signature="e#0#11#0" expanded="true" />
-                  <element signature="e#0#9#0" expanded="true" />
-                  <element signature="e#0#13#0" expanded="true" />
-                  <element signature="e#0#9#0" expanded="true" />
                   <element signature="e#0#11#0" expanded="true" />
                   <element signature="e#0#32#0" expanded="true" />
                 </folding>
@@ -72,11 +66,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>规范代码def</find>
-      <find>c++</find>
-      <find>c++ 基础</find>
-      <find>基础操作</find>
-      <find>语言应用场景</find>
       <find>python模糊匹配</find>
       <find>html2text模块</find>
       <find>自动拼接网址</find>
@@ -90,7 +79,6 @@
       <find>flag_num_resource_break</find>
       <find>连续</find>
       <find>unset</find>
-      <find>rename</find>
       <find>exists</find>
       <find>遍历</find>
       <find>checkout</find>
@@ -102,6 +90,12 @@
       <find>user.name</find>
       <find>4.1</find>
       <find>top</find>
+      <find>file</find>
+      <find>rename</find>
+      <find>拼接</find>
+      <find>邮箱</find>
+      <find>匹配邮箱</find>
+      <find>正则</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;</replace>
@@ -135,34 +129,24 @@
         <option value="$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/593500_2_2/lanzhoudaxue_article_detail.py" />
         <option value="$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/593500_2_5/expert_article_api_import_to_project.py" />
         <option value="$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/593500_2_8/expert_article_api_import_to_project.py" />
+        <option value="$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/67590_2_11/expert_article_api_import_to_project.py" />
+        <option value="$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/198530_2_3/baidubaike_person_basic.py" />
+        <option value="$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/198530_2_4/baidubaike_person_basic_ceshi.py" />
+        <option value="$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/198530_2_6/baike_research_field_extractor.py" />
         <option value="$PROJECT_DIR$/index.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="282" />
-    <option name="y" value="-2160" />
-    <option name="width" value="2148" />
-    <option name="height" value="1800" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="width" value="1934" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="RogerJTX.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RogerJTX.github.io" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -279,12 +263,17 @@
       <workItem from="1621493642110" duration="5280000" />
       <workItem from="1621675931730" duration="3141000" />
       <workItem from="1621824029262" duration="8603000" />
-      <workItem from="1622185655345" duration="1782000" />
+      <workItem from="1622185655345" duration="2165000" />
+      <workItem from="1622703493858" duration="2850000" />
+      <workItem from="1623315369898" duration="138000" />
+      <workItem from="1623395418307" duration="1878000" />
+      <workItem from="1623830857856" duration="1073000" />
+      <workItem from="1623910354403" duration="349000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="223638000" />
+    <option name="totallyTimeSpent" value="230309000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -296,10 +285,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-149" y="-2160" width="1432" height="1200" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" id="Structure" order="0" sideWeight="0.943609" side_tool="true" visible="true" weight="0.213246" />
+      <window_info id="Structure" order="0" sideWeight="0.943609" side_tool="true" visible="true" weight="0.19638069" />
       <window_info id="Favorites" order="1" sideWeight="0.50075185" side_tool="true" weight="0.08462104" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -312,7 +300,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32986626" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32767403" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32921812" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.35760728" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -320,7 +308,7 @@
       <window_info anchor="right" content_ui="combo" id="Project" order="3" sideWeight="0.5506608" weight="0.14812332" />
       <window_info anchor="right" id="SciView" order="4" weight="0.32934132" />
       <window_info anchor="right" id="Database" order="5" sideWeight="0.49224806" weight="0.3284251" />
-      <window_info anchor="right" x="0" y="0" width="465" height="926" id="Documentation" order="6" show_stripe_button="false" sideWeight="0.4493392" side_tool="true" weight="0.1477438" />
+      <window_info anchor="right" x="0" y="0" width="465" height="926" id="Documentation" order="6" sideWeight="0.4493392" side_tool="true" visible="true" weight="0.13538875" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,18 +374,18 @@
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/593500_2_5/expert_article_api_import_to_project.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/593500_2_6/expert_article_api_each_project.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/593500_2_8/expert_article_api_import_to_project.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/67590_2_11/expert_article_api_import_to_project.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/198530_2_3/baidubaike_person_basic.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/198530_2_2/baike_research_field_extractor.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/198530_2_4/baidubaike_person_basic_ceshi.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/198530_2_6/baike_research_field_extractor.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/198530_2_5/clean.py" />
     <entry file="file://$PROJECT_DIR$/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="546">
-            <caret line="1880" column="22" lean-forward="true" selection-start-line="1880" selection-start-column="4" selection-end-line="1880" selection-end-column="22" />
+          <first_editor relative-caret-position="-25">
+            <caret line="6081" lean-forward="true" selection-start-line="6081" selection-end-line="6081" />
             <folding>
-              <element signature="e#0#14#0" expanded="true" />
-              <element signature="e#0#14#0" expanded="true" />
-              <element signature="e#0#11#0" expanded="true" />
-              <element signature="e#0#9#0" expanded="true" />
-              <element signature="e#0#13#0" expanded="true" />
-              <element signature="e#0#9#0" expanded="true" />
               <element signature="e#0#11#0" expanded="true" />
               <element signature="e#0#32#0" expanded="true" />
             </folding>
