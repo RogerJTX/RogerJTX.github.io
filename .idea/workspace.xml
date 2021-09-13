@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e544215-fad6-4ab4-bf05-7f5cd6754375" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/index_images/2e7cb7c1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index_images/a76d0ce3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index_images/426f5bad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index_images/882c896c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index_images/9b4f8a75.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index_images/be07e2f0.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
     </list>
@@ -32,12 +34,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="807">
-                <caret line="1965" column="10" selection-start-line="1965" selection-start-column="10" selection-end-line="1965" selection-end-column="10" />
+              <first_editor relative-caret-position="193">
+                <caret line="1875" column="23" lean-forward="true" selection-start-line="1875" selection-start-column="23" selection-end-line="1875" selection-end-column="23" />
                 <folding>
                   <element signature="e#0#14#0" expanded="true" />
                   <element signature="e#0#14#0" expanded="true" />
@@ -51,6 +53,15 @@
                 </folding>
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/AppData/Local/Temp/scp23199/home/liangzhi/back_services/ocr_api_service/ocr_api_kejiting_plus_threading_6.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="36" column="12" lean-forward="true" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -75,7 +86,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Weka</find>
       <find>模糊匹配工具</find>
       <find>pycharm</find>
       <find>ini</find>
@@ -89,7 +99,6 @@
       <find>re.findall</find>
       <find>秘匙</find>
       <find>list_experience_judge</find>
-      <find>config</find>
       <find>user.name</find>
       <find>4.1</find>
       <find>top</find>
@@ -105,6 +114,8 @@
       <find>tqdm</find>
       <find>linux</find>
       <find>windows</find>
+      <find>username</find>
+      <find>config</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;</replace>
@@ -289,12 +300,12 @@
       <workItem from="1629194402655" duration="1732000" />
       <workItem from="1631257521778" duration="126000" />
       <workItem from="1631257680887" duration="629000" />
-      <workItem from="1631498264123" duration="3224000" />
+      <workItem from="1631498264123" duration="4070000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="243222000" />
+    <option name="totallyTimeSpent" value="244068000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -322,7 +333,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32986626" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3127572" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.31203008" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.35760728" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -408,8 +419,8 @@
     <entry file="file://$PROJECT_DIR$/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="807">
-            <caret line="1965" column="10" selection-start-line="1965" selection-start-column="10" selection-end-line="1965" selection-end-column="10" />
+          <first_editor relative-caret-position="193">
+            <caret line="1875" column="23" lean-forward="true" selection-start-line="1875" selection-start-column="23" selection-end-line="1875" selection-end-column="23" />
             <folding>
               <element signature="e#0#14#0" expanded="true" />
               <element signature="e#0#14#0" expanded="true" />
@@ -430,6 +441,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp23199/home/liangzhi/back_services/ocr_api_service/ocr_api_kejiting_plus_threading_6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="36" column="12" lean-forward="true" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
         </state>
       </provider>
     </entry>

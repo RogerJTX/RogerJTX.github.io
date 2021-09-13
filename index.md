@@ -1888,6 +1888,37 @@ $ watch -n 10 nvidia-smi
 参考：https://blog.csdn.net/a1414345/article/details/74857226?utm_term=linux%E6%B7%BB%E5%8A%A0%E4%B8%80%E6%AC%A1%E6%80%A7%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1&utm_medium=distribute.pc_aggpage_search_result.none-task-blog-2~all~sobaiduweb~default-5-74857226&spm=3001.4430
 
 
+#### 25.linux get 请求es数据库 查询es数据
+
+    linux直接查es数据：
+    curl -X get localhost:9200/_index/_type/_id
+    curl -k -u admin:password  -XGET localhost:9200/_index/_type/_id
+    
+    加上headers 代替账号密码
+    curl -H "Authorization:Basic YWRXXXXXXXXXXXXX==" -X GET localhost:9200/_index/_type/_id
+
+#### 26.linux telnet命令
+
+用于查看某个ip的某个接口是否是通的，是否是正常的
+
+安装telnet
+	
+# 安装服务
+yum install telnet –y
+# 启动服务
+service xinetd restart
+
+查看远方服务器ssh端口是否开放：
+	
+telnet 192.168.25.133 22
+
+![](index_images/16a50645.png)
+
+
+
+
+
+
 # linux相关环境配置
 
 #### 1. Centos7 更换为网易YUM源
@@ -1967,16 +1998,92 @@ $ watch -n 10 nvidia-smi
     pip3 install --upgrade pip
     
 
+#### 3.linux安装tesseract
+
+https://www.jianshu.com/p/b0a3defa8ea5
+https://blog.csdn.net/diyiday/article/details/80004793
+https://www.pianshen.com/article/9026369424/
+
+centos下安装：
 
 
+    1.安装centos7系统依赖
+
+    yum install -y automake autoconf libtool gcc gcc-c++ 
+    yum install -y libpng-devel libjpeg-devel libtiff-devel
+    yum -y install  python-devel
+    yum -y install openssl-devel   
+    yum -y install opencv 
+    yum -y install  java-1.8.0-openjdk   java-1.8.0-openjdk-devel  
+    yum install -y libffi libffi-devel
+    yum install libmount  -y
 
 
+    2 安装leptonica
+    
+    下载leptonica-1.78，下载地址：http://www.leptonica.org/source/leptonica-1.78.0.tar.gz
+    解压并安装
+    tar -xzvf leptonica-1.78.0.tar.gz
+    cd leptonica-1.78.0
+    ./configure
+    make && make install
+    
+    安装完成后，配置环境变量
+    在 /etc/profile文件尾部添加
+    export LD_LIBRARY_PATH=/usr/local/lib
+    export LIBLEPT_HEADERSDIR=/usr/local/include
+    export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig
+    
+    或者利用如下命令向 /etc/profile文件添加内容
+    echo "export LD_LIBRARY_PATH=/usr/local/lib" >> /etc/profile
+    echo "export LIBLEPT_HEADERSDIR=/usr/local/include" >> /etc/profile
+    echo "export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig" >> /etc/profile
+    
+    使配置立即生效
+    source /etc/profile
+    3 安装tesseract-ocr
+    
+    下载tesseract-ocr4.0，下载地址：https://github.91chifun.workers.dev//https://github.com/tesseract-ocr/tesseract/archive/4.0.0.tar.gz
+    解压并安装
+    tar -xzf tesseract-4.0.0.tar.gz
+    cd tesseract-4.0.0
+    ./autogen.sh
+    ./configure
+    make && make install
+    ldconfig
+    
+    下载OCR识别字符集
+    cd /usr/local/share/tessdata
+    wget https://hub.fastgit.org/tesseract-ocr/tessdata/raw/master/eng.traineddata
+    wget https://hub.fastgit.org/tesseract-ocr/tessdata/raw/master/chi_sim.traineddata
+    wget https://hub.fastgit.org/tesseract-ocr/tessdata/raw/master/chi_sim_vert.traineddata
+    
+    测试tesseract-ocr4.0是否可用，分别输入tesseract --version、tesseract和tesseract --list-langs，如果能出现如下界面，则说明tesseract安装成功。
 
+tesseract版本
 
+![](index_images/882c896c.png)
 
+tesseract 帮助文档
 
+![](index_images/be07e2f0.png)
 
+tesseract已安装语言包
 
+![](index_images/426f5bad.png)
+
+4 安装pytesseract
+pip install pytesseract
+
+    安装完成后，我们就可以利用python调用tesseract-ocr接口来识别图片了。
+    import pytesseract
+    from PIL import Image
+    img=Image.open('test.png')
+    print(pytesseract.image_to_string(img,lang='chi_sim'))
+    
+image.png
+
+![](index_images/9b4f8a75.png)
 
 
 # Vim命令
@@ -1999,6 +2106,9 @@ https://www.jianshu.com/p/3604d85710c6
     •	Ex模式(Ex mode)
     这和命令行模式比较相似，在使用:visual命令离开Ex模式前，可以一次执行多条命令。
     我们最常用到就是普通模式、插入模式和命令行模式。
+
+
+
 
 
 
