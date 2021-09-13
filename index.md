@@ -1888,6 +1888,88 @@ $ watch -n 10 nvidia-smi
 参考：https://blog.csdn.net/a1414345/article/details/74857226?utm_term=linux%E6%B7%BB%E5%8A%A0%E4%B8%80%E6%AC%A1%E6%80%A7%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1&utm_medium=distribute.pc_aggpage_search_result.none-task-blog-2~all~sobaiduweb~default-5-74857226&spm=3001.4430
 
 
+# linux相关环境配置
+
+#### 1. Centos7 更换为网易YUM源
+
+
+当我们刚刚安装系统的时候 yum 的速度那是真滴慢所以我们就需要一个更加快速的镜像，这时候网易镜像带给我们便捷。下面来一起更换吧！
+
+    备份当前的 yum 源(可选)
+
+    # yum 源在目录 /etc/yum.repos.d/ 下
+    $ cd /etc/yum.repos.d/
+    $ cp CentOS-Base.repo CentOS-Base.repo_bak
+
+    查看当前的版本然后去网易 centos 镜像下载 repo 包
+        这里我给出几个 centos 7 centos 6 centos 5
+
+     $ cat /etc/redhat-release
+     # 我的是 7.5 的本地虚拟机
+     CentOS Linux release 7.5.1804 (Core)
+     # 我这里没有 yum 环境所以我只能使用 curl作为下载工具 [-O 要大写]
+     $ curl -O http://mirrors.163.com/.help/CentOS7-Base-163.repo
+     # 修改下载的 CentOS7-Base-163.repo 名称为 CentOS7-Base.repo
+     $ mv CentOS7-Base-163.repo CentOS-Base.repo
+     mv：是否覆盖"CentOS-Base.repo"？ Y
+
+    重新生成缓存
+
+    yum clean all
+    yum makecache
+
+    测试一下
+
+    $ yum repolist
+    # 这里展示的 163.com，所以我成功了。
+    已加载插件：fastestmirror
+    Loading mirror speeds from cached hostfile
+    源标识                         源名称                                     状态
+    base/7/x86_64                  CentOS-7 - Base - 163.com                  10,019
+    extras/7/x86_64                CentOS-7 - Extras - 163.com                   409
+    updates/7/x86_64               CentOS-7 - Updates - 163.com                2,076
+    repolist: 12,504
+
+
+#### 2.linux python前环境配置 python3.6配置
+
+
+    1.安装Python前的库环境
+    yum install gcc patch libffi-devel python-devel  zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel gdbm-devel db4-devel libpcap-devel xz-devel -y
+    
+    2.下载Python源码包
+    cd /opt/
+    wget https://www.python.org/ftp/python/3.6.2/Python-3.6.2.tgz
+    
+    3.安装Python
+    tar -zxvf Python-3.6.2.tgz -C /usr/local 
+    cd /usr/local/Python-3.6.2
+    vim Modules/Setup.dist
+    
+    去掉以下四行注释
+    _socket socketmodule.c
+    _ssl _ssl.c \
+            -DUSE_SSL -I$(SSL)/include -I$(SSL)/include/openssl \
+            -L$(SSL)/lib -lssl -lcrypto
+    
+    ./configure --prefix=/usr/local/python3
+    make && make install
+    
+    4.设置软连接
+    ln -s /usr/local/python3/bin/python3.6 /usr/bin/python3
+    ln -s /usr/local/python3/bin/pip3 /usr/bin/pip3
+    
+    5.查看python3版本以及pip3版本
+    python3
+    pip3 -V
+    
+    6.更新pip3版本
+    pip3 install --upgrade pip
+    
+
+
+
+
 
 
 
@@ -9763,10 +9845,24 @@ HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Tcpip\Parameters\TCPTimedWa
 #### 4.windows 出现无法刷新,卡住时候  可以刷新资源管理器 在任务管理器中
 
 
-#### 5.
+#### 5.你的设备中缺少重要更新 图标关闭
+
+    图标是这个应用程序
+    
+    C:\Windows\System32\MusNotifyIcon.exe
+
+    1复制 - 副本.exe
+    2使用360粉碎机 强制删除 勾选防止恢复
+    3终止该进程 exe
+
+![](index_images/a76d0ce3.png)
 
 
+#### 6.win10系统你要来自Trustedinstaller的权限才能对此文件进行更改 问题
 
+文件或文件夹权限修改
+
+![](index_images/2e7cb7c1.png)
 
 
 

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e544215-fad6-4ab4-bf05-7f5cd6754375" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/index_images/427b1755.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index_images/80c61458.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index_images/2e7cb7c1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index_images/a76d0ce3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
     </list>
@@ -36,9 +36,10 @@
         <entry file="file://$PROJECT_DIR$/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="498">
-                <caret line="5198" column="30" selection-start-line="5198" selection-start-column="30" selection-end-line="5198" selection-end-column="30" />
+              <first_editor relative-caret-position="807">
+                <caret line="1965" column="10" selection-start-line="1965" selection-start-column="10" selection-end-line="1965" selection-end-column="10" />
                 <folding>
+                  <element signature="e#0#14#0" expanded="true" />
                   <element signature="e#0#14#0" expanded="true" />
                   <element signature="e#0#11#0" expanded="true" />
                   <element signature="e#0#9#0" expanded="true" />
@@ -47,8 +48,6 @@
                   <element signature="e#0#28#0" expanded="true" />
                   <element signature="e#0#11#0" expanded="true" />
                   <element signature="e#0#32#0" expanded="true" />
-                  <element signature="e#14#24#0" expanded="true" />
-                  <element signature="e#156#169#0" expanded="true" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -76,8 +75,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>datetime.t</find>
-      <find>文本向量化</find>
       <find>Weka</find>
       <find>模糊匹配工具</find>
       <find>pycharm</find>
@@ -106,6 +103,8 @@
       <find>xlsx</find>
       <find>excel</find>
       <find>tqdm</find>
+      <find>linux</find>
+      <find>windows</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;</replace>
@@ -148,11 +147,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="1" />
-    <option name="width" value="1938" />
-    <option name="height" value="1088" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="278" />
+    <option name="y" value="-2160" />
+    <option name="width" value="2549" />
+    <option name="height" value="2159" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -286,12 +285,16 @@
       <workItem from="1624330008100" duration="577000" />
       <workItem from="1624330769077" duration="821000" />
       <workItem from="1627461306388" duration="1251000" />
-      <workItem from="1628839209030" duration="1401000" />
+      <workItem from="1628839209030" duration="1455000" />
+      <workItem from="1629194402655" duration="1732000" />
+      <workItem from="1631257521778" duration="126000" />
+      <workItem from="1631257680887" duration="629000" />
+      <workItem from="1631498264123" duration="3224000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="237457000" />
+    <option name="totallyTimeSpent" value="243222000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -303,10 +306,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
+    <frame x="-152" y="-2160" width="1699" height="1439" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Structure" order="0" sideWeight="0.943609" side_tool="true" visible="true" weight="0.12624751" />
+      <window_info active="true" id="Structure" order="0" sideWeight="0.943609" side_tool="true" visible="true" weight="0.13711151" />
       <window_info id="Favorites" order="1" sideWeight="0.50075185" side_tool="true" weight="0.08462104" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -319,15 +322,15 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32986626" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.31454784" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3127572" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.35760728" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Project" order="3" sideWeight="0.5506608" weight="0.14812332" />
       <window_info anchor="right" id="SciView" order="4" weight="0.32934132" />
-      <window_info anchor="right" id="Database" order="5" sideWeight="0.49224806" weight="0.3284251" />
-      <window_info anchor="right" x="0" y="0" width="465" height="926" id="Documentation" order="6" sideWeight="0.4493392" side_tool="true" weight="0.14874816" />
+      <window_info anchor="right" id="Database" order="5" sideWeight="0.49101797" weight="0.32841823" />
+      <window_info anchor="right" x="0" y="0" width="465" height="926" id="Documentation" order="6" show_stripe_button="false" sideWeight="0.50898206" side_tool="true" weight="0.32820097" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -400,12 +403,15 @@
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/198530_2_6/baike_research_field_extractor.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/198530_2_5/clean.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/6228492_9_40/expert_article_api_import_to_project.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/2167206_2_0/weixin_processive_second_time.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/2167206_2_1/weixin_processive_python_email.py" />
     <entry file="file://$PROJECT_DIR$/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="498">
-            <caret line="5198" column="30" selection-start-line="5198" selection-start-column="30" selection-end-line="5198" selection-end-column="30" />
+          <first_editor relative-caret-position="807">
+            <caret line="1965" column="10" selection-start-line="1965" selection-start-column="10" selection-end-line="1965" selection-end-column="10" />
             <folding>
+              <element signature="e#0#14#0" expanded="true" />
               <element signature="e#0#14#0" expanded="true" />
               <element signature="e#0#11#0" expanded="true" />
               <element signature="e#0#9#0" expanded="true" />
@@ -414,8 +420,6 @@
               <element signature="e#0#28#0" expanded="true" />
               <element signature="e#0#11#0" expanded="true" />
               <element signature="e#0#32#0" expanded="true" />
-              <element signature="e#14#24#0" expanded="true" />
-              <element signature="e#156#169#0" expanded="true" />
             </folding>
           </first_editor>
           <second_editor />
