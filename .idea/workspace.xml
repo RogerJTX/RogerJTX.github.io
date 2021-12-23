@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e544215-fad6-4ab4-bf05-7f5cd6754375" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/index_images/1e9026cd.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,8 +35,8 @@
         <entry file="file://$PROJECT_DIR$/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-504">
-                <caret line="7081" column="26" lean-forward="true" selection-start-line="7081" selection-start-column="26" selection-end-line="7081" selection-end-column="26" />
+              <first_editor relative-caret-position="149">
+                <caret line="1920" column="30" selection-start-line="1920" selection-start-column="30" selection-end-line="1920" selection-end-column="30" />
                 <folding>
                   <element signature="e#0#11#0" expanded="true" />
                   <element signature="e#0#32#0" expanded="true" />
@@ -292,11 +294,12 @@
       <workItem from="1637911401540" duration="1845000" />
       <workItem from="1638165447400" duration="687000" />
       <workItem from="1638239451071" duration="3316000" />
+      <workItem from="1640255654708" duration="231000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="272429000" />
+    <option name="totallyTimeSpent" value="272715000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -308,10 +311,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="0" width="1550" height="832" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="0" width="1551" height="832" extended-state="0" />
     <layout>
-      <window_info id="Structure" order="0" sideWeight="0.943609" side_tool="true" visible="true" weight="0.1266756" />
+      <window_info id="Structure" order="0" sideWeight="0.943609" side_tool="true" visible="true" weight="0.12659076" />
       <window_info id="Favorites" order="1" sideWeight="0.50075185" side_tool="true" weight="0.08409506" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -324,15 +326,15 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32986626" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.31203008" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.31120333" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.35760728" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Project" order="3" sideWeight="0.5506608" weight="0.14812332" />
       <window_info anchor="right" id="SciView" order="4" weight="0.32934132" />
-      <window_info anchor="right" id="Database" order="5" sideWeight="0.48892674" weight="0.32820097" />
-      <window_info anchor="right" x="0" y="0" width="465" height="926" id="Documentation" order="6" sideWeight="0.51107323" side_tool="true" weight="0.32820097" />
+      <window_info anchor="right" id="Database" order="5" show_stripe_button="false" sideWeight="0.48892674" weight="0.32820097" />
+      <window_info anchor="right" x="0" y="0" width="465" height="926" id="Documentation" order="6" sideWeight="0.51107323" side_tool="true" weight="0.32819825" />
     </layout>
     <layout-to-restore>
       <window_info id="Structure" order="0" sideWeight="0.943609" side_tool="true" visible="true" weight="0.13711151" />
@@ -436,8 +438,8 @@
     <entry file="file://$PROJECT_DIR$/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-504">
-            <caret line="7081" column="26" lean-forward="true" selection-start-line="7081" selection-start-column="26" selection-end-line="7081" selection-end-column="26" />
+          <first_editor relative-caret-position="149">
+            <caret line="1920" column="30" selection-start-line="1920" selection-start-column="30" selection-end-line="1920" selection-end-column="30" />
             <folding>
               <element signature="e#0#11#0" expanded="true" />
               <element signature="e#0#32#0" expanded="true" />
