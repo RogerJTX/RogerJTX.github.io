@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e544215-fad6-4ab4-bf05-7f5cd6754375" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/index_images/426f5bad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index_images/882c896c.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index_images/9b4f8a75.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index_images/be07e2f0.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,34 +29,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="193">
-                <caret line="1875" column="23" lean-forward="true" selection-start-line="1875" selection-start-column="23" selection-end-line="1875" selection-end-column="23" />
+              <first_editor relative-caret-position="-504">
+                <caret line="7081" column="26" lean-forward="true" selection-start-line="7081" selection-start-column="26" selection-end-line="7081" selection-end-column="26" />
                 <folding>
-                  <element signature="e#0#14#0" expanded="true" />
-                  <element signature="e#0#14#0" expanded="true" />
-                  <element signature="e#0#11#0" expanded="true" />
-                  <element signature="e#0#9#0" expanded="true" />
-                  <element signature="e#0#13#0" expanded="true" />
-                  <element signature="e#0#9#0" expanded="true" />
-                  <element signature="e#0#28#0" expanded="true" />
                   <element signature="e#0#11#0" expanded="true" />
                   <element signature="e#0#32#0" expanded="true" />
                 </folding>
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/AppData/Local/Temp/scp23199/home/liangzhi/back_services/ocr_api_service/ocr_api_kejiting_plus_threading_6.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="36" column="12" lean-forward="true" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -86,10 +65,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>模糊匹配工具</find>
-      <find>pycharm</find>
-      <find>ini</find>
-      <find>flag_num_resource_break</find>
       <find>连续</find>
       <find>unset</find>
       <find>exists</find>
@@ -116,6 +91,10 @@
       <find>windows</find>
       <find>username</find>
       <find>config</find>
+      <find>删除</find>
+      <find>rm</find>
+      <find>cursor</find>
+      <find>空格</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;</replace>
@@ -154,15 +133,15 @@
         <option value="$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/198530_2_4/baidubaike_person_basic_ceshi.py" />
         <option value="$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/198530_2_6/baike_research_field_extractor.py" />
         <option value="$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/6228492_9_40/expert_article_api_import_to_project.py" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp23199/home/liangzhi/back_services/ocr_api_service/ocr_api_kejiting_plus_threading_6.py" />
         <option value="$PROJECT_DIR$/index.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="278" />
-    <option name="y" value="-2160" />
-    <option name="width" value="2549" />
-    <option name="height" value="2159" />
+    <option name="x" value="-9" />
+    <option name="width" value="1939" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -300,12 +279,24 @@
       <workItem from="1629194402655" duration="1732000" />
       <workItem from="1631257521778" duration="126000" />
       <workItem from="1631257680887" duration="629000" />
-      <workItem from="1631498264123" duration="4070000" />
+      <workItem from="1631498264123" duration="12346000" />
+      <workItem from="1631931229135" duration="4256000" />
+      <workItem from="1632361476272" duration="2826000" />
+      <workItem from="1632449295393" duration="1687000" />
+      <workItem from="1632707454054" duration="1569000" />
+      <workItem from="1632794740512" duration="1275000" />
+      <workItem from="1632967904169" duration="649000" />
+      <workItem from="1635683692987" duration="36000" />
+      <workItem from="1635751854226" duration="1237000" />
+      <workItem from="1635835294928" duration="702000" />
+      <workItem from="1637911401540" duration="1845000" />
+      <workItem from="1638165447400" duration="687000" />
+      <workItem from="1638239451071" duration="3316000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="244068000" />
+    <option name="totallyTimeSpent" value="272429000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -317,10 +308,34 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-152" y="-2160" width="1699" height="1439" extended-state="0" />
+    <frame x="-6" y="0" width="1550" height="832" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" id="Structure" order="0" sideWeight="0.943609" side_tool="true" visible="true" weight="0.13711151" />
+      <window_info id="Structure" order="0" sideWeight="0.943609" side_tool="true" visible="true" weight="0.1266756" />
+      <window_info id="Favorites" order="1" sideWeight="0.50075185" side_tool="true" weight="0.08409506" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32986626" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32986626" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.31203008" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.35760728" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Project" order="3" sideWeight="0.5506608" weight="0.14812332" />
+      <window_info anchor="right" id="SciView" order="4" weight="0.32934132" />
+      <window_info anchor="right" id="Database" order="5" sideWeight="0.48892674" weight="0.32820097" />
+      <window_info anchor="right" x="0" y="0" width="465" height="926" id="Documentation" order="6" sideWeight="0.51107323" side_tool="true" weight="0.32820097" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Structure" order="0" sideWeight="0.943609" side_tool="true" visible="true" weight="0.13711151" />
       <window_info id="Favorites" order="1" sideWeight="0.50075185" side_tool="true" weight="0.08462104" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -333,7 +348,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32986626" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.31203008" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.31203008" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.35760728" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -342,7 +357,7 @@
       <window_info anchor="right" id="SciView" order="4" weight="0.32934132" />
       <window_info anchor="right" id="Database" order="5" sideWeight="0.49101797" weight="0.32841823" />
       <window_info anchor="right" x="0" y="0" width="465" height="926" id="Documentation" order="6" show_stripe_button="false" sideWeight="0.50898206" side_tool="true" weight="0.32820097" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -388,9 +403,7 @@
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/1836530_2_5/expert_article_api_all_experts.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/1836530_2_6/expert_article_api_all_experts.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/2101578_3_12/baidubaike_person_basic.py" />
-    <entry file="file://G:/mayun_code/university_expert/harbin_gongye_univ/extract/experience_extract_01.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://G:/mayun_code/university_expert/harbin_gongye_univ/extract/experience_extract_01.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/919138_2_1/baidubaike_person_basic.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/919138_2_0/baidubaike_person_basic.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/919138_2_2/baidubaike_person_basic.py" />
@@ -416,19 +429,16 @@
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/6228492_9_40/expert_article_api_import_to_project.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/2167206_2_0/weixin_processive_second_time.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/2167206_2_1/weixin_processive_python_email.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp23199/home/liangzhi/back_services/ocr_api_service/ocr_api_kejiting_plus_threading_6.py" />
+    <entry file="file://$USER_HOME$/Desktop/person_info_xjt.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="193">
-            <caret line="1875" column="23" lean-forward="true" selection-start-line="1875" selection-start-column="23" selection-end-line="1875" selection-end-column="23" />
+          <first_editor relative-caret-position="-504">
+            <caret line="7081" column="26" lean-forward="true" selection-start-line="7081" selection-start-column="26" selection-end-line="7081" selection-end-column="26" />
             <folding>
-              <element signature="e#0#14#0" expanded="true" />
-              <element signature="e#0#14#0" expanded="true" />
-              <element signature="e#0#11#0" expanded="true" />
-              <element signature="e#0#9#0" expanded="true" />
-              <element signature="e#0#13#0" expanded="true" />
-              <element signature="e#0#9#0" expanded="true" />
-              <element signature="e#0#28#0" expanded="true" />
               <element signature="e#0#11#0" expanded="true" />
               <element signature="e#0#32#0" expanded="true" />
             </folding>
@@ -441,13 +451,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="26" selection-start-column="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp23199/home/liangzhi/back_services/ocr_api_service/ocr_api_kejiting_plus_threading_6.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="36" column="12" lean-forward="true" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
         </state>
       </provider>
     </entry>

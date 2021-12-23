@@ -1914,9 +1914,11 @@ telnet 192.168.25.133 22
 
 ![](index_images/16a50645.png)
 
+#### 27.linux 动态监控gpu的使用情况
 
+这里推荐一个好用的小工具：gpustat, 直接pip install gpustat即可安装，gpustat 基于nvidia-smi，可以提供更美观简洁的展示，结合 watch 命令，可以动态实时监控GPU 的使用情况。
 
-
+![](index_images/1e9026cd.png)
 
 
 # linux相关环境配置
