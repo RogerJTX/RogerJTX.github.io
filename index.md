@@ -510,7 +510,7 @@ https://www.jianshu.com/p/203f172b06e2
  
  最后进入Windows的命令提示符，输入命令ipconfig /flushdns
 
-刷新dns缓存，然后重启浏览器，就可以进入github网页了，不过，有时候，网页可能不大顺畅，多刷新几遍就可以了，如果还是不行，你就得寻找其他办法了。
+刷新dns缓存，然后重启浏览器，就可以进入github网页了，不过，有时候，网页可能不大顺畅，多刷新几遍。
 
 
 #### 1.什么是git？
@@ -2754,6 +2754,41 @@ __pycache__文件夹的意义何在呢？ 因为第一次执行代码的时候�
 
 #### 10.面向对象三大特性：封装,继承,多态
 
+##### 10.1 继承
+https://www.cnblogs.com/bigberg/p/7182741.html#_label1
+
+继承概念的实现方式主要有2类：实现继承、接口继承。
+
+1.实现继承是指使用基类的属性和方法而无需额外编码的能力。
+2.接口继承是指仅使用属性和方法的名称、但是子类必须提供实现的能力(子类重构爹类方法)。
+
+```python
+class Person(object):   # 定义一个父类
+ 
+    def talk(self):    # 父类中的方法
+        print("person is talking....")  
+ 
+ 
+class Chinese(Person):    # 定义一个子类， 继承Person类
+ 
+    def walk(self):      # 在子类中定义其自身的方法
+        print('is walking...')
+ 
+c = Chinese()
+c.talk()      # 调用继承的Person类的方法
+c.walk()     # 调用本身的方法
+ 
+# 输出
+ 
+# person is talking....
+# is walking...
+```
+
+
+###### 10.2 多态
+
+子类重写父类的方法后可以实现多态，重写时形参必须和父类的形参相同。如果不同，那么就不算重写，对子类来说，该方法属于重载。
+
 
 #### 11.注意 写代码时候账号密码一定要单独建个文件夹
 
@@ -2770,7 +2805,7 @@ __pycache__文件夹的意义何在呢？ 因为第一次执行代码的时候�
 
 https://blog.csdn.net/tony_wong/article/details/39638887
 
-### 14.数据仓库DW层
+#### 14.数据仓库DW层
 
 操作性数据
 
