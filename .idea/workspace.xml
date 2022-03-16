@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5e544215-fad6-4ab4-bf05-7f5cd6754375" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,9 +34,16 @@
         <entry file="file://$PROJECT_DIR$/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="453">
-                <caret line="1916" column="26" lean-forward="true" selection-start-line="1916" selection-start-column="26" selection-end-line="1916" selection-end-column="26" />
+              <first_editor relative-caret-position="667">
+                <caret line="509" selection-start-line="509" selection-end-line="509" />
                 <folding>
+                  <element signature="e#0#14#0" expanded="true" />
+                  <element signature="e#0#14#0" expanded="true" />
+                  <element signature="e#0#11#0" expanded="true" />
+                  <element signature="e#0#9#0" expanded="true" />
+                  <element signature="e#0#13#0" expanded="true" />
+                  <element signature="e#0#9#0" expanded="true" />
+                  <element signature="e#0#28#0" expanded="true" />
                   <element signature="e#0#11#0" expanded="true" />
                   <element signature="e#0#32#0" expanded="true" />
                 </folding>
@@ -139,8 +147,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1002" />
-    <option name="y" value="-2157" />
+    <option name="x" value="225" />
+    <option name="y" value="-2160" />
     <option name="width" value="2655" />
     <option name="height" value="2088" />
   </component>
@@ -293,12 +301,13 @@
       <workItem from="1637911401540" duration="1845000" />
       <workItem from="1638165447400" duration="687000" />
       <workItem from="1638239451071" duration="3316000" />
-      <workItem from="1640255654708" duration="1122000" />
+      <workItem from="1640255654708" duration="2166000" />
+      <workItem from="1647409189026" duration="251000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="273551000" />
+    <option name="totallyTimeSpent" value="274846000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -310,7 +319,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-999" y="-2139" width="1770" height="1392" extended-state="0" />
+    <frame x="-187" y="-2160" width="1770" height="1392" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.943609" side_tool="true" visible="true" weight="0.1103972" />
       <window_info id="Favorites" order="1" sideWeight="0.50075185" side_tool="true" weight="0.08409506" />
@@ -325,7 +335,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32986626" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.44037414" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.29306313" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.35760728" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -434,12 +444,20 @@
     <entry file="file://$USER_HOME$/Desktop/person_info_xjt.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp55782/home/liangzhi/back_services/ocr_api_service/ocr_api_kejiting_plus_threading_1.py" />
     <entry file="file://$PROJECT_DIR$/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="453">
-            <caret line="1916" column="26" lean-forward="true" selection-start-line="1916" selection-start-column="26" selection-end-line="1916" selection-end-column="26" />
+          <first_editor relative-caret-position="667">
+            <caret line="509" selection-start-line="509" selection-end-line="509" />
             <folding>
+              <element signature="e#0#14#0" expanded="true" />
+              <element signature="e#0#14#0" expanded="true" />
+              <element signature="e#0#11#0" expanded="true" />
+              <element signature="e#0#9#0" expanded="true" />
+              <element signature="e#0#13#0" expanded="true" />
+              <element signature="e#0#9#0" expanded="true" />
+              <element signature="e#0#28#0" expanded="true" />
               <element signature="e#0#11#0" expanded="true" />
               <element signature="e#0#32#0" expanded="true" />
             </folding>

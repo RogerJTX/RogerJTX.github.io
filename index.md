@@ -483,6 +483,36 @@ ObjectId 采用12字节的存储空间，每个字节两位16进制数字，是�
 
 # Git Github Gitlab
 
+#### 前言
+
+修改hosts解决 github网页无法打开的问题
+https://www.jianshu.com/p/203f172b06e2
+
+好长一段时间无法使用github，上网查找了一些解决办法，大部分都不能用了。
+
+所以，今天暂且记录一下，以免以后不能用了忘记。
+
+打开C:\Windows\System32\drivers\etc\hosts文件，
+
+在文件最后添加上以下两句：
+
+140.82.113.3 github.com
+
+199.232.69.194 github.global.ssl.fastly.net
+
+至于前面的ip地址，你需要进入ip地址解析网站github.com.ipaddress.com/，查看github的当前映射地址，譬如，我的如下：
+
+![](index_images/46f5009f.png)
+
+然后进入另一个ssl通道地址网页：github.global.ssl.Fastly.net，查看ssl通道映射的IP地址：
+
+![](index_images/e4bba833.png)
+ 
+ 最后进入Windows的命令提示符，输入命令ipconfig /flushdns
+
+刷新dns缓存，然后重启浏览器，就可以进入github网页了，不过，有时候，网页可能不大顺畅，多刷新几遍就可以了，如果还是不行，你就得寻找其他办法了。
+
+
 #### 1.什么是git？
 
     •	开源的最先进的分布式版本控制系统，没有之一
