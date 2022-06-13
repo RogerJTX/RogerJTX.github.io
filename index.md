@@ -1641,9 +1641,9 @@ crontab -l
 
 ![](index_images/85cb4c19.png)
 
+**说明：**
 
-
-
+nohup.out文件包含了通常发到终端显示器上的所有输出，输出会追加到现有的nohup.out文件中。如果用nohup同时运行了同目录中的多个命令，所有输出都将发送到同一个nohup.out文件中，输出结果会让人感到困惑。
 
 
 
@@ -1933,9 +1933,9 @@ $ watch -n 10 nvidia-smi
 
 安装telnet
 	
-# 安装服务
+安装服务
 yum install telnet –y
-# 启动服务
+启动服务
 service xinetd restart
 
 查看远方服务器ssh端口是否开放：
@@ -1949,6 +1949,49 @@ telnet 192.168.25.133 22
 这里推荐一个好用的小工具：gpustat, 直接pip install gpustat即可安装，gpustat 基于nvidia-smi，可以提供更美观简洁的展示，结合 watch 命令，可以动态实时监控GPU 的使用情况。
 
 ![](index_images/1e9026cd.png)
+
+
+#### 28.conda python 环境切换
+
+环境切换 通过conda activate 进行环境切换 通过conda deactivate退出环境 如,进入futu环境: conda activate futu
+
+#### 29.linux中的&&和&，|和||
+
+
+在linux中，&和&&,|和||介绍如下：
+
+&  表示任务在后台执行，如要在后台运行redis-server,则有  redis-server &
+
+&& 表示前一条命令执行成功时，才执行后一条命令 ，如 echo '1‘ && echo '2'    
+
+| 表示管道，上一条命令的输出，作为下一条命令参数，如 echo 'yes' | wc -l
+
+|| 表示上一条命令执行失败后，才执行下一条命令，如 cat nofile || echo "fail"
+
+
+#### 30.linux echo命令
+
+先介绍下linux中echo命令的使用
+
+echo是打印变量的值或者给定的字符串，
+
+　　　　比如，输入echo hello或者echo "hello"都是在控制台打印出hello单词
+
+　　　　但是我们需要把打印出来的字符串记录到文本文件中，就需要>和>>命令
+
+　　　　touch a.txt        新建一个文本文件a.txt
+
+　　　　echo hello > a.txt
+
+　　　　则a.txt中会记录下hello，但是如果再次执行echo hello > a.txt。则会覆盖之前的hello，
+
+　　　　怎样追加呢？需要>>命令
+
+　　　　echo world >> a.txt  则a.txt中会记录的是hello word,但是hello和word不是写在一行的，
+
+              而是每个单词占用一行的。
+
+　　　　再比如 echo $HOME 控制台则会打印出当前用户的根路径/home/picc4
 
 
 # linux相关环境配置
@@ -2278,10 +2321,18 @@ https://www.jianshu.com/p/3604d85710c6
     返回上一级 输入 cd..    回车 
     返回根目录 输入 cd\    回车
 
+#### 2.合并多个ts文件
 
+copy /b  F:\f\*.ts  E:\f\new.ts
 
+https://jingyan.baidu.com/article/d45ad1489e84d528542b8072.html
 
+    将要合成的ts文件放在同一个文件夹下，ts文件的排序要有一定的规则，最简单的就是：1.ts、2.ts、3.ts等。
+    然后cmd输入命令 copy /b  F:\f\*.ts  E:\f\new.ts
+    
+![](index_images/e030cc2f.png)
 
+![](index_images/33b860fa.png)
 
 
 # Pyhton的数据类型
@@ -2678,6 +2729,15 @@ for i in range(len(arr)):
 #### 3.时间戳 timestamp
 
 ![](index_images/8b7b2fc8.png)
+
+时间戳转成指定字符串
+
+https://blog.csdn.net/qdPython/article/details/123696118
+
+strftime：根据传入格式
+
+datetime.now().strftime('%Y-%m-%d')
+
 
 
 #### 4.同步接口与异步接口
@@ -4461,9 +4521,47 @@ with open('manager.txt', 'a+', encoding='utf-8') as f:
 
 ```
 
+#### 103. python platform模块
+
+https://blog.csdn.net/bbwangj/article/details/93652876
+
+```python
+import platform
+import subprocess
+from functools import partial
+# 此行代码用于windows执行，放到linux上后需要注释掉
+if platform.system().lower() == 'windows':
+    subprocess.Popen = partial(subprocess.Popen, encoding="utf-8")
+elif platform.system().lower() == 'linux':
+    pass
 
 
+import platform
+print(platform.platform()) #获取操作系统名称及版本号，'Windows-7-6.1.7601-SP1'
+print(platform.version()) #获取操作系统版本号，'6.1.7601'
+print(platform.architecture()) #获取操作系统的位数，('32bit', 'WindowsPE')
+print(platform.machine()) #计算机类型，'x86'
+print(platform.node()) #计算机的网络名称，'hongjie-PC'
+print(platform.processor()) #计算机处理器信息，'x86 Family 16 Model 6 Stepping 3, AuthenticAMD'
+print(platform.uname()) #包含上面所有的信息汇总，uname_result(system='Windows', node='hongjie-PC',release='7', version='6.1.7601', machine='x86', processor='x86 Family
+```
 
+#### 104.python partial 偏函数
+
+https://zhuanlan.zhihu.com/p/47124891
+
+```python
+from functools import partial
+
+def add(*args):
+    return sum(args)
+
+add_100 = partial(add, 100)
+print(add_100(1, 2, 3))  # 106
+
+add_101 = partial(add, 101)
+print(add_101(1, 2, 3))  # 107
+```
 
 
 
@@ -5787,6 +5885,15 @@ r.content:
 #### 6.session = requests.session()
 
 
+#### 7.浏览器直接获取cURl命令 导入到 postman
+
+![](index_images/c8a5ffe8.png)
+
+![](index_images/f20ab19d.png)
+
+![](index_images/3a4b4d2a.png)
+
+![](index_images/45a53f07.png)
 
 # 常见的编码方式
 
@@ -6624,6 +6731,7 @@ TestData=urllib.urlopen('http://www.baidu.com').read()
 print chardet.detect(TestData)
 ```
 
+
 ![](index_images/d9f6bb50.png)
 
 confidence代表匹配度
@@ -6643,6 +6751,34 @@ https://cuiqingcai.com/6454.html
 ![](index_images/3f2139ed.png)
 
 ![](index_images/dd840e2e.png)
+
+
+#### 12.乱码问题总汇
+
+Python requests请求页面返回乱码问题
+
+序言
+
+有时候在通过Python爬取网页数据的时候，比如抖音、快手等短视频数据；网页会返回乱码;这种乱码数据，不管是gb2312、utf-8、gbk、亦或者使用gbk的超集gb18030等编码都毫无用处。看下图。
+
+![](index_images/46562994.png)
+
+原因出在一个参数上 'accept-encoding': 'gzip, deflate, br'
+
+gzip是一种数据格式；默认且目前仅使用deflate算法压缩data部分，这种方法常用于压缩传输。
+
+![](index_images/eb272084.png)
+
+普通浏览器在访问网页时，之所以要添加 'accept-encoding': 'gzip, deflate, br' ；是因为，浏览器对于从服务器中返回的对应的gzip压缩的网页，会自动解压缩，所以，在requests的时候，添加对应的请求头，来表明自己接收压缩后的数据。
+
+而在上面的代码中，如果也添加此头的信息，结果就是，返回的是压缩后的数据，没有解码，直接将压缩后的数据当做普通的html文本来处理，所以显示出来的内容，就是乱码了。（看到这里是不是有种恍然大悟😄）
+
+如果还不理解再直白点：就是服务器数据返回给客户端时候已经被gzip压缩了，而你的程序里面没有自动解压而已。
+解决方案
+
+1、注释掉 ；
+
+2、可以弄个解压算法把乱码的数据进行解压，即可得到正常的HTML返回结果。
 
 
 
@@ -7053,6 +7189,12 @@ result = re.findall(r"\b(?:[0-9]{1,3}\.){3}[0-9]{1,3}\b", string_ip)
 
 ![](index_images/14b12a9c.png)
 
+
+#### 9.Pycharm 监视器用法
+
+运行到一个变量的时候，变量出现后设置断点，例如soup，然后在监视里输入相关的soup语法直接调试
+
+![](index_images/95d11d2f.png)
 
 
 
