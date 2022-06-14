@@ -1034,9 +1034,111 @@ https://blog.csdn.net/iceking66/article/details/80563716
 ![](index_images/2449d1d4.png)
 
     git config user.name   //获取当前登录的用户
-    git config user.email  //获取当前登录用户的邮箱
-    
+    git config user.email  //获取当前登录用户的邮箱    
     git config user.name 'xxxx..github_name'
+
+#### 22. git多账号管理
+
+https://blog.csdn.net/joker_zsl/article/details/115494894
+
+我们可能会遇到需要使用多个git账号来操作不同仓库的情况，比如用工作账号来操作公司的gitlab，自己学习的代码则会上传到github，这时就需要管理多个账号。这里记录下git管理多账号的过程。
+
+0 清理旧配置
+
+一般我们是会有曾设置过git的全局配置的，所以首先要清理下。
+
+执行命令先看下是否有全局配置
+
+git config --global --list
+
+如果看到了user.name 和 user.email 信息，执行下面命令清除下
+
+    git config --global --unset user.name
+    git config --global --unset user.email
+
+然后删除下以前生成的公钥和秘钥
+
+![](index_images/c0e53c15.png)
+
+1 生成钥对
+
+做完前置的清理工作之后，现在可以重新生成钥对了。分别生成github和gitlab的公钥，注意命名时做出区分。
+
+使用下面命令生成公钥
+
+ssh-keygen -t rsa -C “这里填邮箱地址”
+
+回车之后会让选择保存公钥的文件，默认是id_rsa，这里加上后缀以做区别：id_rsa_github。（注意下文件路径哟，不写路径的话会生成在打开git shell 的目录下）
+
+![](index_images/a78709ba.png)
+
+同样的，生成gitlab的公钥即可。
+
+2 添加ssh key
+
+分别为github和gitlab添加ssh key（将 id_rsa_github.pub 和 id_rsa_gitlab.pub 内容分别添加到 github 和 gitlab 的 SSH Keys 中）
+
+3 添加私钥
+
+上一步，我们已经将公钥添加到了 github 或者 gitlab 服务器，现在还需要将私钥添加到本地。使用以下命令
+
+    ssh-add ~/.ssh/id_rsa_github
+    ssh-add ~/.ssh/id_rsa_gitlab
+
+如果添加时出现了Could not open a connection to your authentication agent.的提示，只需先执行下面的命令，之后再执行上述添加命令即可。
+
+ssh-agent bash
+
+添加后，可以使用下面命令确认是否添加完成
+
+ssh-add -l
+
+出现类似下面的东西即是添加成功了
+
+![](index_images/eff999b5.png)
+
+4 管理秘钥
+
+公钥和私钥分别在服务器和本地添加好后，现在需要编辑配置文件来管理账号。在.ssh文件夹的config文件里（如果没有自行创建）
+
+配置内容如下（根据自己的情况填写）：
+
+    Host github
+    HostName github.com
+    User joker
+    IdentityFile ~/.ssh/id_rsa_github
+     
+    Host gitlab
+    HostName gitlab.com
+    User joker
+    IdentityFile ~/.ssh/id_rsa_gitlab
+
+该文件分为多个用户配置，每个用户配置包含以下几个配置项：
+
+    Host：仓库网站的别名，随意取
+    HostName：仓库网站的域名（IP地址）
+    User：仓库网站上的用户名
+    IdentityFile：私钥的绝对路径
+
+配置后通过下面命令测试下HOST是否能连通
+
+ssh -T git@github
+
+ 5 仓库配置
+
+现在为不同的仓库配置Local级别的配置，就能使用不能的账号操作不同的仓库了
+
+假设我们要配置 github 的某个仓库，进入该仓库后，执行以下命令
+
+    git config --local user.name "你的账号"
+    git config --local user.email "你的邮箱"
+
+
+
+
+
+
+
 
 # Python MongoDB 操作
 Pycharm编辑器下mongo数据库的可视化配置安装(结果安装了没有可视化功能)  
