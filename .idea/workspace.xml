@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e544215-fad6-4ab4-bf05-7f5cd6754375" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/index_images/a78709ba.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index_images/c0e53c15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index_images/eff999b5.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,8 +33,8 @@
         <entry file="file://$PROJECT_DIR$/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="244">
-                <caret line="1097" column="30" selection-start-line="1097" selection-start-column="30" selection-end-line="1097" selection-end-column="30" />
+              <first_editor relative-caret-position="328">
+                <caret line="1038" lean-forward="true" selection-start-line="1038" selection-end-line="1038" />
                 <folding>
                   <element signature="e#0#14#0" expanded="true" />
                   <element signature="e#0#14#0" expanded="true" />
@@ -331,12 +327,12 @@
       <workItem from="1653465097573" duration="5238000" />
       <workItem from="1653841269758" duration="4421000" />
       <workItem from="1654763502768" duration="1853000" />
-      <workItem from="1655115736700" duration="2555000" />
+      <workItem from="1655115736700" duration="5912000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="324926000" />
+    <option name="totallyTimeSpent" value="328283000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -348,10 +344,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
-      <window_info active="true" id="Structure" order="0" sideWeight="0.943609" side_tool="true" visible="true" weight="0.123324394" />
+      <window_info id="Structure" order="0" sideWeight="0.943609" side_tool="true" visible="true" weight="0.123324394" />
       <window_info id="Favorites" order="1" sideWeight="0.50075185" side_tool="true" weight="0.08409506" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -364,7 +359,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32986626" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32235938" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.19341564" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.35760728" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -477,8 +472,8 @@
     <entry file="file://$PROJECT_DIR$/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="244">
-            <caret line="1097" column="30" selection-start-line="1097" selection-start-column="30" selection-end-line="1097" selection-end-column="30" />
+          <first_editor relative-caret-position="328">
+            <caret line="1038" lean-forward="true" selection-start-line="1038" selection-end-line="1038" />
             <folding>
               <element signature="e#0#14#0" expanded="true" />
               <element signature="e#0#14#0" expanded="true" />

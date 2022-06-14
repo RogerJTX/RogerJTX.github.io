@@ -1011,6 +1011,11 @@ https://www.cnblogs.com/visugar/p/6821777.html
 
 #### 20.git 查看自己的秘匙和秘匙密文地址
 
+查看本机是否存在SSH keys,
+
+$ ls ~/.ssh/
+
+
 https://blog.csdn.net/iceking66/article/details/80563716
 
 查看秘钥文件夹位置（路径地址）
