@@ -5889,7 +5889,12 @@ Index.htm:是文件夹中的一个文件
     2011年，W3C将“XMLHttpRequest Level2”规范与最初的“XMLHttpRequest”规范合并，所有XHR2新增的功能也都并入了原来的XHR API中，接口不变，功能增强。
 
  
- 
+# JavaScript JS基础语法
+
+https://www.runoob.com/js/js-functions.html
+
+实例网站加解密 解析：
+
 
 
 # Python 多线程 threading模块
