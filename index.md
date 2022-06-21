@@ -5895,6 +5895,39 @@ https://www.runoob.com/js/js-functions.html
 
 实例网站加解密 解析：
 
+    // 默认参数 e=8, t=ture, 产生n
+    
+    function tra (e, t) {
+                var n = ""
+                  , n = Math.ceil(1e14 * Math.random()).toString().substr(0, e || 4);
+                return t && (n += Date.now()),
+                n
+            }
+
+#### 1.crypto-js 加密、解密使用方法
+
+https://blog.csdn.net/qq_34707272/article/details/121857485
+
+#### 2.npm和pip
+
+**pip**
+
+pip，全称是：package installer for Python，它是一个现代的，通用的 Python 包管理工具，是 easy_install 的替代品。提供了对 Python 包的查找、下载、安装、卸载的功能。只要有人把某个代码模块打包放在一个叫做 PiPI 的地方，其他人就可以从这个 PiPI 中下载安装包。只要包存在于 PiPI，都能使用 pip 命令来安装下载。
+
+如果不指定下载源，默认从官方的 PyPI 下载，也可以通过指定下载源来让 pip 从指定的 pypi 找包然后安装，比如有些公司可能有自己的源，如果想下载公司内部的工具包，就得在使用 pip 命令时加上源参数。
+
+PyPI，全称是：Python Package Index，它是Python官方的第三方库的仓库，所有人都可以下载第三方库或上传自己开发的库到 PyPI。
+
+Python 内置了 pip，Python 使用 pip 来安装包。pip 运行在 Python 上。
+
+**npm**
+
+npm 全称是 Node Package(包) Manager(管理器)，连起来就是 Node.js 的包管理器，提供了对 Node.js 包的查找、下载、安装、卸载的功能。只要有人把某个代码模块打包放在一个叫做「npm Registry」的地方，其他人就可以从这个「npm Registry」中下载安装包，只要包存在于「npm registry」，都能使用 npm 命令来安装下载。
+
+如果不指定下载源，默认从官方的 「npm Registry」下载，也可以通过指定下载源来让 npm 从指定的 Registry 找包然后安装，比如有些公司可能有自己的源，如果想下载公司内部的工具包，就得在使用 npm 命令时加上源参数。
+
+Node.js 内置了 npm，Node.js 使用 npm 来安装 module 包，npm 是用 Javascript 写的，运行在 Node.js 上。
+
 
 
 # Python 多线程 threading模块
