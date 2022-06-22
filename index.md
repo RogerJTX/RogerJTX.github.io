@@ -5908,6 +5908,9 @@ https://www.runoob.com/js/js-functions.html
 
 https://blog.csdn.net/qq_34707272/article/details/121857485
 
+    npm install crypto-js
+    npm install crypto-js -g
+
 #### 2.npm和pip
 
 **pip**
