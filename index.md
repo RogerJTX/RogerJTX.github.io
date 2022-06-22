@@ -8719,8 +8719,9 @@ https://stackoverflow.com/questions/36314776/pymongo-error-bson-errors-invalidbs
     1.修改每批次获取数据量的条数，即batch size:
     collection.find(condition).batch_size(5)
     批量数需 估算十分钟内能处理的数据量
-    2.延长超时时间 需显示的关闭cursor
+    2.延长超时时间 cursor
     db.getCollection("unicom_jd").find({}).noCursorTimeout()
+    self.mongo_col_read.find(no_cursor_timeout=True)
 
 
 #### 11.TypeError: 'NoneType' object is not iterable
