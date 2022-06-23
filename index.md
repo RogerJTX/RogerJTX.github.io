@@ -4679,7 +4679,29 @@ add_101 = partial(add, 101)
 print(add_101(1, 2, 3))  # 107
 ```
 
+#### 105.python if - else写在一行
 
+在python代码中，经常会出现if - else出现在一行，且格式非正常的条件语句。
+好处：简约，节省行数
+但初次接触可能会有一些不习惯，不能很快理解。。
+例如：
+
+    num = 1 if param > 10 else 0 
+    等同于：
+    if param > 10 :
+        num = 1
+    else:
+        num = 0
+    
+    例如：
+    num = 1 if param > 10  else 2 if param == 10 else 0 
+    等同于：
+    if param > 10 :
+        num = 1
+    elif  param == 10:
+        num = 2
+    else:
+        num = 0
 
 
 # Math 数学基础
