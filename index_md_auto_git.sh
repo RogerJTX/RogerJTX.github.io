@@ -1,4 +1,7 @@
 #!/bin/bash
+while true
+do
+
 
 git status
 
@@ -12,4 +15,7 @@ git commit -m "modified ${current_time}" 		# 远程仓库可以看到是什么�
 git push origin master
 
 echo "####### 自动Git完成 #######"
-sleep 2s
+sleep 20s
+
+
+done

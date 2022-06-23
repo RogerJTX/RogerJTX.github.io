@@ -1144,8 +1144,40 @@ ssh -T git@github
 
 https://blog.csdn.net/qq_44926189/article/details/124187232
 
+```bash
+#!/bin/bash
+while true
+do
 
 
+git status
+
+echo "####### 开始自动Git #######"
+
+current_time=$(date "+%Y/%m/%d -%H:%M:%S")		# 获取当前时间
+echo ${current_time}							# 显示当前时间
+
+git add .
+git commit -m "modified ${current_time}" 		# 远程仓库可以看到是什么时间修改的...
+git push origin master
+
+echo "####### 自动Git完成 #######"
+sleep 20s
+
+
+done
+
+```
+
+#### 24.git push origin master和git push的区别
+
+1、git push origin master 指定远程仓库名和分支名。
+
+2、git push 不指定远程仓库名和分支名。
+
+3. 这两者的区别：git push是git push origin master的一种简写形式
+
+4. 建议使用 git push origin master
 
 
 # Python MongoDB 操作
@@ -1587,7 +1619,62 @@ print(x.deleted_count, "个文档已删除")
     5 个文档已删除
 
 
+# Shell 命令
 
+#### 1.介绍
+
+shell可以说是Linux命令集的概称，属于命令行的人机界面。shell是一个用C语言编写的程序，它是用户使用Linux的桥梁。shell既是一个命令语言，也是一个程序设计语言;其次，shell也指一种应用程序，这个应用程序提供了一个界面，用户通过这个界面访问操作系统内核的服务。
+
+计算机操作的一般交互过程是：
+图形界面 <=> Shell/应用程序 <=> 内核 <=> 硬件
+
+    硬件：负责具体运算的，如CPU、总线等
+    内核：CPU调度、内存管理等
+    Shell：类似Windows下的应用程序
+    界面：涵盖GUI等
+
+    补充：操作系统 就相当于 Shell + 界面
+
+所以，在Linux中，Bash就是系统自带的Shell（App），直白点讲就是常用的命令行窗口。Shell包括Bash，但其他的专门指令操作，也可以集成为另一个Shell（某个命令如man就相当于一个应用程序，然后通过壳程序/命令行模式来调度）。
+
+
+#### 2.循环命令
+
+```bash
+while true
+sleep 2s
+
+do
+    echo "123"
+done
+```
+
+#### 3.git push 脚本
+
+```bash
+#!/bin/bash
+while true
+do
+
+
+git status
+
+echo "####### 开始自动Git #######"
+
+current_time=$(date "+%Y/%m/%d -%H:%M:%S")		# 获取当前时间
+echo ${current_time}							# 显示当前时间
+
+git add .
+git commit -m "modified ${current_time}" 		# 远程仓库可以看到是什么时间修改的...
+git push origin master
+
+echo "####### 自动Git完成 #######"
+sleep 20s
+
+
+done
+
+```
 
 
 # Linux 基础  Linux 命令
@@ -1606,7 +1693,7 @@ MobaXterm Professional是两者的结合
 2.![](index_images/86a47918.png)
 
 
-#### 2.Linux命令 
+#### 2.Linux命令
 
 Ubuntu     sudo apt-get update   sudo apt-get install
 
