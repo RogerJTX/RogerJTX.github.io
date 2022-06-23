@@ -1042,7 +1042,7 @@ https://blog.csdn.net/iceking66/article/details/80563716
     git config user.email  //获取当前登录用户的邮箱    
     git config user.name 'xxxx..github_name'
 
-#### 22. git多账号管理
+#### 22.git 多账号管理
 
 https://blog.csdn.net/joker_zsl/article/details/115494894
 
@@ -1140,6 +1140,9 @@ ssh -T git@github
 
 
 
+#### 23.git 自动推送程序开发  自动上传程序
+
+https://blog.csdn.net/qq_44926189/article/details/124187232
 
 
 
