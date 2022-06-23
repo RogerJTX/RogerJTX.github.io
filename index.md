@@ -1637,8 +1637,29 @@ shell可以说是Linux命令集的概称，属于命令行的人机界面。shel
 
 所以，在Linux中，Bash就是系统自带的Shell（App），直白点讲就是常用的命令行窗口。Shell包括Bash，但其他的专门指令操作，也可以集成为另一个Shell（某个命令如man就相当于一个应用程序，然后通过壳程序/命令行模式来调度）。
 
+#### 2.shell 备份文件
 
-#### 2.循环命令
+
+```bash
+#!/bin/bash
+
+:<<!
+编写一个脚本实现备份/var/log目录下的所有文件到/lianxi/jingzhou，
+要求文件名包含当前日期，精确到秒，文件名例如：2022_3_13_10_58_20-log.tar.gz。
+同时要求删除/lianxi/jingzhou目录下七天前的备份文件，只保留最近7天的
+!
+# 建立存放备份文件的目录
+mkdir /lianxi/jingzhou -p
+# 获取当前的时间
+ctime=$(date +%Y_%m_%d_%H_%M_%S)
+# 将/var/log下的文件备份到/lianxi/jingzhou
+tar czf /lianxi/jingzhou/${ctime}-log.tar.gz /var/log  &>/dev/null
+# 找到/lianxi/jingzhou下七天前的备份文件，然后删除
+find /lianxi/jingzhou -mtime +7 |xargs rm -rf
+```
+
+
+#### 3.循环命令
 
 ```bash
 while true
@@ -1649,7 +1670,7 @@ do
 done
 ```
 
-#### 3.git push 脚本
+#### 4.git push 脚本
 
 ```bash
 #!/bin/bash
