@@ -4017,18 +4017,27 @@ argv[0]代表模块文件名、argv[1]代表传入的第一个命令行参数
 
 
 #### 83.列表去重复 sorted(set(listA), key = listA.index)
+
+两种不同方法：
+
+不按照原来顺序去重
 ```python
 l1 = [1,4,4,2,3,4,5,6,1]
 l2 = list(set(l1))
 print(l2)    # [1, 2, 3, 4, 5, 6]
-
 ```
 
-
-
+按照原来顺序去重
 ```python
 listA = ['python','语','言','是','一','门','动','态','语','言']
 print(sorted(set(listA), key = listA.index))
+```
+
+```python
+orgList = [1,0,3,7,7,5]
+formatList = list(set(orgList))
+formatList.sort(key=orgList.index)
+print (formatList)
 ```
 
 #### 83.Python中的list和C中的数组有什么区别？

@@ -33,8 +33,8 @@
         <entry file="file://$PROJECT_DIR$/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="288">
-                <caret line="5908" selection-start-line="5908" selection-end-line="5908" selection-end-column="59" />
+              <first_editor relative-caret-position="590">
+                <caret line="4034" lean-forward="true" selection-start-line="4034" selection-end-line="4034" />
                 <folding>
                   <element signature="e#0#11#0" expanded="true" />
                   <element signature="e#0#32#0" expanded="true" />
@@ -139,10 +139,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2819" />
-    <option name="y" value="-1094" />
-    <option name="width" value="1938" />
-    <option name="height" value="1098" />
+    <option name="x" value="-378" />
+    <option name="y" value="-1628" />
+    <option name="width" value="2793" />
+    <option name="height" value="1515" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -319,12 +319,12 @@
       <workItem from="1654763502768" duration="1853000" />
       <workItem from="1655115736700" duration="9543000" />
       <workItem from="1655256780460" duration="2259000" />
-      <workItem from="1655640188305" duration="4464000" />
+      <workItem from="1655640188305" duration="6067000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="338637000" />
+    <option name="totallyTimeSpent" value="340240000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -336,10 +336,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2821" y="-1092" width="1550" height="878" extended-state="6" />
+    <frame x="-1019" y="-2167" width="2575" height="1455" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Structure" order="0" sideWeight="0.943609" side_tool="true" visible="true" weight="0.08981233" />
+      <window_info id="Structure" order="0" sideWeight="0.943609" side_tool="true" visible="true" weight="0.053237982" />
       <window_info id="Favorites" order="1" sideWeight="0.50075185" side_tool="true" weight="0.08409506" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -352,7 +352,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32986626" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.13654096" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.23105498" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.35760728" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -465,8 +465,8 @@
     <entry file="file://$PROJECT_DIR$/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="288">
-            <caret line="5908" selection-start-line="5908" selection-end-line="5908" selection-end-column="59" />
+          <first_editor relative-caret-position="590">
+            <caret line="4034" lean-forward="true" selection-start-line="4034" selection-end-line="4034" />
             <folding>
               <element signature="e#0#11#0" expanded="true" />
               <element signature="e#0#32#0" expanded="true" />
