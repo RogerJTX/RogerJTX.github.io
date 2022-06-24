@@ -1785,6 +1785,17 @@ done
 
 ```
 
+#### 7.shell脚本里的 #!/bin/bash
+
+    #!/bin/bash
+    echo "Hello World"
+
+
+第 1 行的#!是一个约定的标记，它告诉系统这个脚本需要什么解释器来执行，即使用哪一种 shell；后面的/bin/bash就是指明了解释器的具体位置。
+
+Shell 脚本中所有以#开头的都是注释（当然以#!开头的除外）。
+
+
 
 # Linux 基础  Linux 命令
 
