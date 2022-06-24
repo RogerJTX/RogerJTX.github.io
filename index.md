@@ -1676,50 +1676,28 @@ tar czf /lianxi/jingzhou/${ctime}-log.tar.gz /var/log  &>/dev/null
 find /lianxi/jingzhou -mtime +7 |xargs rm -rf
 ```
 
+#### 3.shell脚本判断文件是否存在
 
-
-#### 3.循环命令
-
+1、判断文件夹是否存在
 ```bash
-while true
-sleep 2s
-
-do
-    echo "123"
-done
+#如果文件夹不存在，则创建文件夹
+tempPath="/home/parasaga/blank"
+if [ ! -d "$tempPath" ]; then
+mkdir $blankPath
+fi
 ```
 
-#### 4.git push 脚本
 
+
+2、判断文件是否存在
 ```bash
-#!/bin/bash
-while true
-do
-
-
-git status
-
-echo "####### 开始自动Git #######"
-
-current_time=$(date "+%Y/%m/%d -%H:%M:%S")		# 获取当前时间
-echo ${current_time}							# 显示当前时间
-
-git add .
-git commit -m "modified ${current_time}" 		# 远程仓库可以看到是什么时间修改的...
-git push origin master
-
-echo "####### 自动Git完成 #######"
-sleep 20s
-
-
-done
-
+#如果文件不存在，则创建文件
+tempFile="/home/parasaga/blank/error.log"
+if [ ! -f "$tempFile" ]; then
+touch $tempFile
+fi
 ```
 
-#### 5.shell脚本判断文件是否存在
-
-
-    
     文件不存在则创建：
     
     if [ ! -d "/data/" ];then
@@ -1766,6 +1744,46 @@ done
     -G 判断对象是否存在，并且属于当前用户组
     -nt 判断file1是否比file2新  [ "/data/file1" -nt "/data/file2" ]
     -ot 判断file1是否比file2旧  [ "/data/file1" -ot "/data/file2" ]
+
+
+
+#### 5.循环命令
+
+```bash
+while true
+sleep 2s
+
+do
+    echo "123"
+done
+```
+
+#### 6.git push 脚本
+
+```bash
+#!/bin/bash
+while true
+do
+
+
+git status
+
+echo "####### 开始自动Git #######"
+
+current_time=$(date "+%Y/%m/%d -%H:%M:%S")		# 获取当前时间
+echo ${current_time}							# 显示当前时间
+
+git add .
+git commit -m "modified ${current_time}" 		# 远程仓库可以看到是什么时间修改的...
+git push origin master
+
+echo "####### 自动Git完成 #######"
+sleep 20s
+
+
+done
+
+```
 
 
 # Linux 基础  Linux 命令
