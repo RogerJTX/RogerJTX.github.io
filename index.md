@@ -4913,6 +4913,58 @@ print(add_101(1, 2, 3))  # 107
     else:
         num = 0
 
+#### 106.python os 复制文件
+
+```python
+
+#文件复制
+import os
+src_path=r'E:\Pycharm\python100题\代码'
+target_path=r'E:\Pycharm\python100题\123'
+ 
+#封装成函数
+def copy_function(src,target):
+ if os.path.isdir(src) and os.path.isdir(target):
+  filelist=os.listdir(src)
+  for file in filelist:
+    path=os.path.join(src,file)
+    if os.path.isdir(path):
+     copy_function(path,target)
+    with open(path,'rb') as rstream:
+     container=rstream.read()
+     path1=os.path.join(target,file)
+     with open(path1,'wb') as wstream:
+      wstream.write(container)
+  else:
+   print('复制完毕!')
+copy_function(src_path,target_path)
+
+#改进后的文件复制，可以递归复制文件，之前的文件复制不能复制文件夹
+import os
+src_path=r'E:\Pycharm\python100题\代码'
+target_path=r'E:\Pycharm\python100题\123'
+ 
+def copy_function(src,target):
+ if os.path.isdir(src) and os.path.isdir(target):
+  filelist=os.listdir(src)
+  for file in filelist:
+    path=os.path.join(src,file)
+    if os.path.isdir(path):   #判断是否为文件夹
+     target1=os.path.join(target,file)
+     os.mkdir(target1) #在目标文件下在创建一个文件夹
+ 
+     copy_function(path,target1)
+    else:
+     with open(path, 'rb') as rstream:
+      container = rstream.read()
+      path1 = os.path.join(target, file)
+      with open(path1, 'wb') as wstream:
+       wstream.write(container)
+  else:
+   print('复制完毕!')
+copy_function(src_path, target_path)
+```
+
 
 # Math 数学基础
 
