@@ -1641,7 +1641,7 @@ shell可以说是Linux命令集的概称，属于命令行的人机界面。shel
 
 ```bash
 #!/bin/bash
-#将一个目录下的一些文件移动到另一个目录下
+#将一个目录下的一些文件复制到另一个目录下 copy cp
 
 cp /d/00_Shell/backup.txt ./test
 ```
