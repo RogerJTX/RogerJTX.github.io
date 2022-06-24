@@ -1637,7 +1637,25 @@ shell可以说是Linux命令集的概称，属于命令行的人机界面。shel
 
 所以，在Linux中，Bash就是系统自带的Shell（App），直白点讲就是常用的命令行窗口。Shell包括Bash，但其他的专门指令操作，也可以集成为另一个Shell（某个命令如man就相当于一个应用程序，然后通过壳程序/命令行模式来调度）。
 
-#### 2.shell 备份文件
+#### 2.shell 备份文件 拷贝文件
+
+```bash
+#!/bin/bash
+#将一个目录下的一些文件移动到另一个目录下
+
+cp /d/00_Shell/backup.txt ./test
+```
+
+```bash
+#!/bin/bash
+#将一个目录下的一些文件移动到另一个目录下
+
+raw_dir="/home/liuyi/evt_test"  #可修改绝对路径；
+mkdir /home/liuyi/evt_bp  #创建新的文件目录；
+
+mv /email/file/error/$file /email/file/collection
+```
+
 
 
 ```bash
@@ -1657,6 +1675,7 @@ tar czf /lianxi/jingzhou/${ctime}-log.tar.gz /var/log  &>/dev/null
 # 找到/lianxi/jingzhou下七天前的备份文件，然后删除
 find /lianxi/jingzhou -mtime +7 |xargs rm -rf
 ```
+
 
 
 #### 3.循环命令

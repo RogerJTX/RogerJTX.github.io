@@ -15,7 +15,7 @@ git commit -m "modified ${current_time}" 		# 远程仓库可以看到是什么�
 git push
 
 echo "####### 自动Git完成 #######"
-sleep 20s
+sleep 600s
 
 
 done
