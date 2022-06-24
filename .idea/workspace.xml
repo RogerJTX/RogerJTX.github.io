@@ -31,8 +31,8 @@
         <entry file="file://$PROJECT_DIR$/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="279">
-                <caret line="5083" column="34" selection-start-line="5083" selection-start-column="34" selection-end-line="5083" selection-end-column="34" />
+              <first_editor relative-caret-position="153">
+                <caret line="5059" column="36" selection-start-line="5059" selection-start-column="36" selection-end-line="5059" selection-end-column="36" />
                 <folding>
                   <element signature="e#0#14#0" expanded="true" />
                   <element signature="e#0#14#0" expanded="true" />
@@ -144,11 +144,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="1" />
+    <option name="width" value="1934" />
+    <option name="height" value="1037" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -327,12 +327,12 @@
       <workItem from="1655256780460" duration="2259000" />
       <workItem from="1655640188305" duration="10490000" />
       <workItem from="1655992313232" duration="5361000" />
-      <workItem from="1656051465307" duration="4210000" />
+      <workItem from="1656051465307" duration="4653000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="354234000" />
+    <option name="totallyTimeSpent" value="354677000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -344,10 +344,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-9" y="-9" width="2062" height="1126" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Structure" order="0" sideWeight="0.943609" side_tool="true" visible="true" weight="0.15348525" />
+      <window_info id="Structure" order="0" sideWeight="0.943609" side_tool="true" visible="true" weight="0.114271455" />
       <window_info id="Favorites" order="1" sideWeight="0.50075185" side_tool="true" weight="0.08409506" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -361,7 +361,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.2798354" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.35665295" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.2556539" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -473,8 +473,8 @@
     <entry file="file://$PROJECT_DIR$/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="279">
-            <caret line="5083" column="34" selection-start-line="5083" selection-start-column="34" selection-end-line="5083" selection-end-column="34" />
+          <first_editor relative-caret-position="153">
+            <caret line="5059" column="36" selection-start-line="5059" selection-start-column="36" selection-end-line="5059" selection-end-column="36" />
             <folding>
               <element signature="e#0#14#0" expanded="true" />
               <element signature="e#0#14#0" expanded="true" />
