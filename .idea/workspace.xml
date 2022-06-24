@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e544215-fad6-4ab4-bf05-7f5cd6754375" name="Default Changelist" comment="" />
+    <list default="true" id="5e544215-fad6-4ab4-bf05-7f5cd6754375" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +33,8 @@
         <entry file="file://$PROJECT_DIR$/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="195">
-                <caret line="1780" column="9" lean-forward="true" selection-start-line="1780" selection-start-column="9" selection-end-line="1780" selection-end-column="9" />
+              <first_editor relative-caret-position="153">
+                <caret line="4917" column="9" lean-forward="true" selection-start-line="4917" selection-start-column="9" selection-end-line="4917" selection-end-column="9" />
                 <folding>
                   <element signature="e#0#14#0" expanded="true" />
                   <element signature="e#0#14#0" expanded="true" />
@@ -327,12 +329,12 @@
       <workItem from="1655256780460" duration="2259000" />
       <workItem from="1655640188305" duration="10490000" />
       <workItem from="1655992313232" duration="5361000" />
-      <workItem from="1656051465307" duration="668000" />
+      <workItem from="1656051465307" duration="1322000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="350692000" />
+    <option name="totallyTimeSpent" value="351346000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -473,8 +475,8 @@
     <entry file="file://$PROJECT_DIR$/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="195">
-            <caret line="1780" column="9" lean-forward="true" selection-start-line="1780" selection-start-column="9" selection-end-line="1780" selection-end-column="9" />
+          <first_editor relative-caret-position="153">
+            <caret line="4917" column="9" lean-forward="true" selection-start-line="4917" selection-start-column="9" selection-end-line="4917" selection-end-column="9" />
             <folding>
               <element signature="e#0#14#0" expanded="true" />
               <element signature="e#0#14#0" expanded="true" />
