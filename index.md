@@ -5101,6 +5101,32 @@ if __name__ == '__main__':
     print("done!")
 ```
 
+
+#### 108.os.path.getsize() 获取文件夹大小函数 获取文件大小
+
+```python
+import os
+
+def get_size(start_path = '.'):
+    total_size = 0
+    for dirpath, dirnames, filenames in os.walk(start_path):
+        for f in filenames:
+            fp = os.path.join(dirpath, f)
+            # skip if it is symbolic link
+            if not os.path.islink(fp):
+                total_size += os.path.getsize(fp)
+
+    return total_size
+
+print(get_size('D:\\00Shell'), 'bytes')
+print(get_size('D:\\1'), 'bytes')
+```
+
+![](index_images/30d10db5.png)
+
+
+
+
 # Math 数学基础
 
 #### 1.时间衰减函数

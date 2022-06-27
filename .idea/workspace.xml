@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e544215-fad6-4ab4-bf05-7f5cd6754375" name="Default Changelist" comment="" />
+    <list default="true" id="5e544215-fad6-4ab4-bf05-7f5cd6754375" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/index_images/30d10db5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +34,8 @@
         <entry file="file://$PROJECT_DIR$/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="153">
-                <caret line="5059" column="36" selection-start-line="5059" selection-start-column="36" selection-end-line="5059" selection-end-column="36" />
+              <first_editor relative-caret-position="867">
+                <caret line="5124" column="30" selection-start-line="5124" selection-start-column="30" selection-end-line="5124" selection-end-column="30" />
                 <folding>
                   <element signature="e#0#14#0" expanded="true" />
                   <element signature="e#0#14#0" expanded="true" />
@@ -144,7 +147,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-1023" />
     <option name="y" value="-2171" />
     <option name="width" value="3863" />
@@ -327,12 +330,12 @@
       <workItem from="1655256780460" duration="2259000" />
       <workItem from="1655640188305" duration="10490000" />
       <workItem from="1655992313232" duration="5361000" />
-      <workItem from="1656051465307" duration="4653000" />
+      <workItem from="1656051465307" duration="4800000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="354677000" />
+    <option name="totallyTimeSpent" value="354824000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -344,10 +347,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="2062" height="1126" extended-state="7" />
+    <frame x="-1019" y="-2167" width="2575" height="1455" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Structure" order="0" sideWeight="0.943609" side_tool="true" visible="true" weight="0.114271455" />
+      <window_info id="Structure" order="0" sideWeight="0.943609" side_tool="true" visible="true" weight="0.09098133" />
       <window_info id="Favorites" order="1" sideWeight="0.50075185" side_tool="true" weight="0.08409506" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -361,7 +364,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.2798354" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.2556539" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.19316493" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -473,8 +476,8 @@
     <entry file="file://$PROJECT_DIR$/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="153">
-            <caret line="5059" column="36" selection-start-line="5059" selection-start-column="36" selection-end-line="5059" selection-end-column="36" />
+          <first_editor relative-caret-position="867">
+            <caret line="5124" column="30" selection-start-line="5124" selection-start-column="30" selection-end-line="5124" selection-end-column="30" />
             <folding>
               <element signature="e#0#14#0" expanded="true" />
               <element signature="e#0#14#0" expanded="true" />
