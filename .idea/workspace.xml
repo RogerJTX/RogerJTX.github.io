@@ -33,8 +33,8 @@
         <entry file="file://$PROJECT_DIR$/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-2073">
-                <caret line="4966" column="24" selection-start-line="4966" selection-start-column="24" selection-end-line="4966" selection-end-column="24" />
+              <first_editor relative-caret-position="636">
+                <caret line="5185" column="3" selection-start-line="5185" selection-start-column="3" selection-end-line="5185" selection-end-column="3" />
                 <folding>
                   <element signature="e#0#14#0" expanded="true" />
                   <element signature="e#0#14#0" expanded="true" />
@@ -43,6 +43,7 @@
                   <element signature="e#0#13#0" expanded="true" />
                   <element signature="e#0#9#0" expanded="true" />
                   <element signature="e#0#15#0" expanded="true" />
+                  <element signature="e#293#317#0" expanded="true" />
                   <element signature="e#0#28#0" expanded="true" />
                   <element signature="e#0#11#0" expanded="true" />
                   <element signature="e#0#32#0" expanded="true" />
@@ -329,12 +330,12 @@
       <workItem from="1655256780460" duration="2259000" />
       <workItem from="1655640188305" duration="10490000" />
       <workItem from="1655992313232" duration="5361000" />
-      <workItem from="1656051465307" duration="5407000" />
+      <workItem from="1656051465307" duration="5677000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="355431000" />
+    <option name="totallyTimeSpent" value="355701000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -475,8 +476,8 @@
     <entry file="file://$PROJECT_DIR$/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-2073">
-            <caret line="4966" column="24" selection-start-line="4966" selection-start-column="24" selection-end-line="4966" selection-end-column="24" />
+          <first_editor relative-caret-position="636">
+            <caret line="5185" column="3" selection-start-line="5185" selection-start-column="3" selection-end-line="5185" selection-end-column="3" />
             <folding>
               <element signature="e#0#14#0" expanded="true" />
               <element signature="e#0#14#0" expanded="true" />
@@ -485,6 +486,7 @@
               <element signature="e#0#13#0" expanded="true" />
               <element signature="e#0#9#0" expanded="true" />
               <element signature="e#0#15#0" expanded="true" />
+              <element signature="e#293#317#0" expanded="true" />
               <element signature="e#0#28#0" expanded="true" />
               <element signature="e#0#11#0" expanded="true" />
               <element signature="e#0#32#0" expanded="true" />

@@ -5183,6 +5183,11 @@ if __name__ == '__main__':
 ```
 
 
+    参考：
+    https://blog.csdn.net/ycy0706/article/details/119171209
+    https://www.cnblogs.com/luo-mao/p/5872532.html
+    https://www.10qianwan.com/articledetail/36451.html
+
 #### 108.os.path.getsize() 获取文件夹大小函数 获取文件大小
 
 ```python
