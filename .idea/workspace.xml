@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e544215-fad6-4ab4-bf05-7f5cd6754375" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
-    </list>
+    <list default="true" id="5e544215-fad6-4ab4-bf05-7f5cd6754375" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -330,12 +328,12 @@
       <workItem from="1655256780460" duration="2259000" />
       <workItem from="1655640188305" duration="10490000" />
       <workItem from="1655992313232" duration="5361000" />
-      <workItem from="1656051465307" duration="8154000" />
+      <workItem from="1656051465307" duration="8394000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="358178000" />
+    <option name="totallyTimeSpent" value="358418000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
