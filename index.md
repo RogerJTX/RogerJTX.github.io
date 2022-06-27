@@ -5188,7 +5188,9 @@ if __name__ == '__main__':
     https://www.cnblogs.com/luo-mao/p/5872532.html
     https://www.10qianwan.com/articledetail/36451.html
 
-#### 108.os.path.getsize() 获取文件夹大小函数 获取文件大小
+#### 108.os.path.getsize() 获取文件夹大小函数 获取文件大小 获取文件夹数量
+
+方法一：
 
 ```python
 import os
@@ -5211,7 +5213,70 @@ print(get_size('D:\\1'), 'bytes')
 ![](index_images/30d10db5.png)
 
 
+方法二：
 
+```python
+import os
+
+totalSize = 0
+fileNum = 0
+dirNum = 0
+
+
+def visitDir(path):
+    global totalSize
+    global fileNum
+    global dirNum
+    for lists in os.listdir(path):
+        sub_path = os.path.join(path, lists)
+        print(sub_path)
+        if os.path.isfile(sub_path):
+            fileNum = fileNum+1                      # 统计文件数量
+            totalSize = totalSize+os.path.getsize(sub_path)  # 文件总大小
+        elif os.path.isdir(sub_path):
+            dirNum = dirNum+1                       # 统计文件夹数量
+            visitDir(sub_path)                           # 递归遍历子文件夹
+
+
+def sizeConvert(size, n):                                   # 单位换算
+    K, M, G = 1024, 1024**2, 1024**3
+    if size >= G:
+        return str(round(size/G, n))+' G Bytes'
+    elif size >= M:
+        return str(round(size/M, n))+' M Bytes'
+    elif size >= K:
+        return str(round(size/K, n))+' K Bytes'
+    else:
+        return str(size)+' Bytes'
+
+
+def main(path):
+    if not os.path.isdir(path):
+        print('Error:"', path, '" is not a directory or does not exist.')
+        return
+    visitDir(path)
+
+def output(path):
+    print('The total size of '+path+' is:'+sizeConvert(totalSize, 2))
+    print('The total number of files in '+path+' is:',fileNum)
+    print('The total number of directories in '+path+' is:',dirNum)
+
+
+if __name__ == '__main__':
+    path = r'D:\1'
+    main(path)
+    output(path)
+```
+
+
+#### 109.datetime 计算时间差
+
+(new_time - old_time).seconds
+(new_time - old_time).days
+
+```python
+
+```
 
 # Math 数学基础
 
