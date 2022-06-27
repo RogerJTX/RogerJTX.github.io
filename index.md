@@ -5271,10 +5271,27 @@ if __name__ == '__main__':
 
 #### 109.datetime 计算时间差
 
+https://blog.csdn.net/WBST5/article/details/109911035
+
 (new_time - old_time).seconds
 (new_time - old_time).days
 
 ```python
+from datetime import datetime
+def calc_hours(old):
+    old_time = datetime.strptime(old, "%Y-%m-%d %H:%M:%S,%f")
+    new_time = datetime.now()
+    sec = (new_time - old_time).seconds
+    return round(sec/3600, 3)
+
+t = '2020-11-19 15:04:47,397'
+print(calc_hours(t))
+
+# 计算结果
+
+# old_time:  2020-11-19 15:04:47.397000
+# new_time:  2020-11-21 22:48:12.076836
+# 7.723
 
 ```
 
