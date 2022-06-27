@@ -586,7 +586,6 @@ Git bash 中的操作方法
     git push
     pit pull
     
-    
     pycharm中操作git bash
     输入 git 查看是否能正常运行
 
@@ -596,17 +595,11 @@ Git bash 中的操作方法
 
 ![](index_images/0ee4d02d.png)
 
-
     git pull 和 git push
     
     用git bash here 来git clone一个项目目录
     然后open as a project
     然后git pull   git add .   git commit -m   git push 
-
-
-
-
-
 
 
 #### 7.git bash讲解和命令
@@ -5273,8 +5266,8 @@ if __name__ == '__main__':
 
 https://blog.csdn.net/WBST5/article/details/109911035
 
-(new_time - old_time).seconds
-(new_time - old_time).days
+    (new_time - old_time).seconds
+    (new_time - old_time).days
 
 ```python
 from datetime import datetime
