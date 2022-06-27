@@ -31,8 +31,8 @@
         <entry file="file://$PROJECT_DIR$/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="342">
-                <caret line="5273" column="53" selection-start-line="5273" selection-start-column="53" selection-end-line="5273" selection-end-column="53" />
+              <first_editor relative-caret-position="384">
+                <caret line="5275" column="29" lean-forward="true" selection-start-line="5275" selection-start-column="29" selection-end-line="5275" selection-end-column="29" />
                 <folding>
                   <element signature="e#0#14#0" expanded="true" />
                   <element signature="e#0#14#0" expanded="true" />
@@ -145,7 +145,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-1023" />
     <option name="y" value="-2171" />
     <option name="width" value="3863" />
@@ -328,12 +328,12 @@
       <workItem from="1655256780460" duration="2259000" />
       <workItem from="1655640188305" duration="10490000" />
       <workItem from="1655992313232" duration="5361000" />
-      <workItem from="1656051465307" duration="8394000" />
+      <workItem from="1656051465307" duration="8455000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="358418000" />
+    <option name="totallyTimeSpent" value="358479000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -345,7 +345,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1019" y="-2167" width="2575" height="1455" extended-state="7" />
+    <frame x="-1019" y="-2167" width="2575" height="1455" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.943609" side_tool="true" visible="true" weight="0.09098133" />
@@ -474,8 +474,8 @@
     <entry file="file://$PROJECT_DIR$/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="342">
-            <caret line="5273" column="53" selection-start-line="5273" selection-start-column="53" selection-end-line="5273" selection-end-column="53" />
+          <first_editor relative-caret-position="384">
+            <caret line="5275" column="29" lean-forward="true" selection-start-line="5275" selection-start-column="29" selection-end-line="5275" selection-end-column="29" />
             <folding>
               <element signature="e#0#14#0" expanded="true" />
               <element signature="e#0#14#0" expanded="true" />
