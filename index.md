@@ -5322,6 +5322,25 @@ print(calc_hours(t))
 
 ```
 
+#### 110.python 创建多级目录
+
+```python
+# 多级目录
+import os
+path_dir = 'D:\\12'
+if not os.path.exists(path_dir):
+    os.makedirs(path_dir)
+
+# 单个目录
+judge_isfile = os.path.exists(path_dir)
+if judge_isfile:
+    pass
+else:
+    os.mkdir(path_dir)
+```
+
+
+
 # Math 数学基础
 
 #### 1.时间衰减函数
