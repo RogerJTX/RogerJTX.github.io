@@ -3493,7 +3493,7 @@ print(s2_list)
     double 8字节 (64柆的浮点数)
 
 
-#### 20.sort排序 list排序
+#### 20.sort排序 list排序 字符串从长到短排序
 ```
 >>> list2 = [4,3,2,1]
 >>> list3 = sorted(list2)
@@ -3503,6 +3503,13 @@ print(s2_list)
 [1, 2, 3, 4]
 ```
 
+```python
+a = ["flower", "flat", "float"]
+s = sorted(a, key=len, reverse=True)
+print(s)
+
+# ["flower", "float", "flat"]
+```
 
 ##### 20.1 python list 按字符长度进行排序
 
@@ -4106,6 +4113,7 @@ https://pyzh.readthedocs.io/en/latest/the-python-yield-keyword-explained.html
 ![](index_images/576b97a1.png)
 
 #### 71. with…as语句是简化版的try except finally语句
+
 
 
 #### 72.import .abc这个表示导入当前文件夹下的一个包(而不是导入其他文件夹的包)
@@ -4992,6 +5000,322 @@ def copy_function(src,target):
 copy_function(src_path, target_path)
 ```
 #### 107.python 备份文件 完整版
+
+完整版，其他为学习版本
+
+```python
+# -*-coding:utf-8-*-
+
+# ===============================================================================
+# 目录对比工具(包含子目录 )，并列出
+# 1、A比B多了哪些文件
+# 2、B比A多了哪些文件
+# 3、二者相同的文件:文件大小相同 VS 文件大小不同  (Size相同文件不打印:与Size不同文件显示未排序)
+# 完整版
+# ===============================================================================
+
+# import sys
+# sys.path.append('D:\TianPengTrans-tmp\etl')
+
+import os, time, difflib
+import shutil  # shutil全称是shell utilities
+import datetime
+import hashlib
+from etl.basic.backup_test.get_file_size_and_num import GetFileSizeAndNum  # 写完整路径
+
+
+AFILES = []  # EE
+BFILES = []  # SVN
+COMMON = []  # EE & SVN
+
+
+def getPrettyTime(state):
+    return time.strftime('%y-%m-%d %H:%M:%S', time.localtime(state.st_mtime))
+
+
+# def getpathsize(dir): #获取文件大小的函数,未用上,仅供学习.故注释掉
+#     size=0
+#     for root, dirs, files in os.walk(dir):
+#     #root:目录:str 如: C:\CopySVN\SystemObject\TopoProcedure\Built-in\
+#     #dirs:目录名称:列表: 如 ['Parsers']
+#     #files:名称:列表: 如 ['011D0961FB42416AA49D5E82945DE7E9.og',...]
+#     #file:目录:str, 如 011D0961FB42416AA49D5E82945DE7E9.og
+#         for file in files:
+#             path = os.path.join(root,file)
+#             size = os.path.getsize(path)
+#     return size
+
+def dirCompare(apath, bpath):
+    afiles = []
+    bfiles = []
+    for root, dirs, files in os.walk(apath):
+        for f in files:
+            afiles.append(root + "\\" + f)
+    for root, dirs, files in os.walk(bpath):
+        for f in files:
+            bfiles.append(root + "\\" + f)
+            # sizeB = os.path.getsize(root + "\\" + f) 此处定义的size无法在commonfiles进行比较. (A,B在各自的循环里面)
+
+    # 去掉afiles中文件名的apath (拿A,B相同的路径\文件名,做成集合,去找交集)
+    apathlen = len(apath)
+    aafiles = []
+    for f in afiles:
+        aafiles.append(f[apathlen:])
+
+    # 去掉bfiles中文件名的bpath
+    bpathlen = len(bpath)
+    bbfiles = []
+    for f in bfiles:
+        bbfiles.append(f[bpathlen:])
+    afiles = aafiles
+    bfiles = bbfiles
+    setA = set(afiles)
+    setB = set(bfiles)
+    # print('%$%'+str(len(setA)))
+    # print('%%'+str(len(setB)))
+    commonfiles = setA & setB  # 处理共有文件
+    # print ("===============File with different size in '", apath, "' and '", bpath, "'===============")
+    # 将结果输出到本地
+    with open(os.getcwd()+'\\diff.txt','w') as di:
+        now_time = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime())
+        di.write("now_time:" + now_time + " "+"===============File with different size in '" + apath + "' and '" + bpath + "'===============")
+
+    for f in sorted(commonfiles):
+        sA = os.path.getsize(apath + "\\" + f)
+        sB = os.path.getsize(bpath + "\\" + f)
+        if sA == sB:  # 共有文件的大小比较
+            # pass #print (f + "\t\t" + getPrettyTime(os.stat(apath + "\\" + f)) + "\t\t" + getPrettyTime(os.stat(bpath + "\\" + f)))
+            # TODO 以下代码是处理大小一致，但是内容可能不一致的情况，则把A的覆盖B的
+            hashlibA = readfile(apath + "\\" + f)
+            hashlibB = readfile(bpath + "\\" + f)
+            if hashlibA != hashlibB:
+                shutil.copyfile(apath + "\\" + f, bpath + "\\" + f)
+
+        # TODO 如果两个文件夹下的同名文件大小不同，则把A的覆盖B的
+        else:
+            with open(os.getcwd() + '\\diff.txt', 'a') as di:
+                di.write("now_time:" + now_time + " "+"File Name=%s    EEresource file size:%d   !=  SVN file size:%d" % (f, sA, sB) + '\n')
+            print("File Name=%s    EEresource file size:%d   !=  SVN file size:%d" %(apath + "\\" + f,sA,sB))
+            shutil.copyfile(apath + "\\" + f, bpath + "\\" + f)
+
+    # TODO 处理仅出现在一个目录中的文件，A中多的拷贝到B，B中多的删除，与A同步
+    onlyFiles = setA ^ setB
+    aonlyFiles = []
+    bonlyFiles = []
+    for of in onlyFiles:
+        if of in afiles:
+            aonlyFiles.append(of)
+        elif of in bfiles:
+            bonlyFiles.append(of)
+    # print ("###################### EE resource ONLY ###########################")
+    # print ("#only files in ", apath)
+    for of in sorted(aonlyFiles):
+        with open(os.getcwd() + '\\EEonly.txt', 'a') as ee:
+            ee.write("now_time:" + now_time + " "+of + '\n')
+        # print('add: %s' % of)
+        shutil.copyfile(apath + of, bpath + of)
+    # print ("*"*20+"SVN ONLY+"+"*"*20)
+    # print ("#only files in ", bpath)
+    for of in sorted(bonlyFiles):
+        with open(os.getcwd() + '\\svnonly.txt', 'a') as svn:
+            svn.write("now_time:" + now_time + " "+of + '\n')
+        print('delete: %s' % of)
+        os.remove(bpath + of)
+
+
+def readfile(path):
+    with open(path, 'rb') as f:
+        content = f.read()
+        return hashlib.md5(content).hexdigest()
+
+# 同步文件夹目录
+def catalogueCompare(f_path_c, f_path_d):
+    f_list_c = []
+    f_list_d = []
+    f_list_c = read_dirs(f_path_c, f_list_c)  # 调用函数
+    f_list_d = read_dirs(f_path_d, f_list_d)  # 调用函数
+    setC = set(f_list_c)
+    setD = set(f_list_d)
+    commonfilesCD = setC & setD  # 处理共有文件夹
+    # onlyFiles = setC ^ setD
+    onlyFilesC = setC ^ commonfilesCD  # c中需要拷贝到d的文件夹
+    onlyFilesD = setD ^ commonfilesCD  # d中需要删除的文件夹
+    disk_c = f_path_c[:2]
+    disk_d = f_path_d[:2]
+    for each_only_c in onlyFilesC:
+        each_only_c_real = disk_c+each_only_c
+        each_only_d_real = disk_d+each_only_c
+        copyfiles(each_only_c_real, each_only_d_real)
+        # print('拷贝文件成功: %s' % each_only_c_real)
+    for each_only_d in onlyFilesD:
+        each_only_d_real = disk_d + each_only_d
+        deletefiles(each_only_d_real)
+        print('删除文件成功: %s' % each_only_d_real)
+    common_list_c = []
+    common_list_d = []
+    for common in commonfilesCD:
+        common_list_c.append(disk_c + common)
+        common_list_d.append(disk_d + common)
+    return common_list_c, common_list_d
+
+def is_file(f_path):
+    # 判断是否存在
+    judge_isfile = os.path.exists(f_path)
+    if judge_isfile:
+        pass
+    else:
+        try:
+            os.mkdir(f_path)
+            print('创建目录：%s' % f_path)
+        except Exception as E_is_file:
+            # print('Error E_is_file: %s' % E_is_file)
+            os.makedirs(f_path)
+            print('创建多层目录：%s' % f_path)
+
+
+# 遍历函数
+def read_dirs(f_path, f_list):
+    # 获取f_path路径下的所有文件及文件夹
+    paths = os.listdir(f_path)
+    # 判断
+    for f_name in paths:
+        com_path = f_path + "\\" + f_name
+        if os.path.isdir(com_path):  # 如果是一个文件夹
+            # print(com_path)
+            # print(f_list)
+            f_list.append(com_path[2:])
+            f_list = read_dirs(com_path, f_list)  # 递归调用
+        # if os.path.isfile:  # 如果是一个文件
+        #     try:
+        #         suffix = com_path.split(".")[1]  # suffix=后缀（获取文件的后缀）
+        #     except Exception as e:
+        #         continue  # 对于没有后缀的文件省略跳过
+    return f_list
+
+def copyfiles(src, dst):
+    try:
+        shutil.copytree(src, dst)
+    except OSError as e_copy: # python >2.5
+        # print("Error_e_cpoy: %s - %s." % (e_copy.filename, e_copy.strerror))
+        pass
+
+def deletefiles(mydir):
+    try:
+        shutil.rmtree(mydir)
+    except OSError as e:
+        print("Error_e: %s - %s." % (e.filename, e.strerror))
+
+def is_dir(path):
+    list_c = []
+    for lists in os.listdir(path):
+        sub_path = os.path.join(path, lists)
+        # print(sub_path)
+        if os.path.isfile(sub_path):
+            pass
+        elif os.path.isdir(sub_path):
+            list_c.append(sub_path)
+    return list_c
+
+def quick_compare(f_path_c, f_path_d):
+    # 判断备份文件夹是否存在，不存在就创建
+    is_file(f_path_c)
+    is_file(f_path_d)
+    # 直接比较 两个二级目录是否大小一样，文件数量一样，文件夹数量一样。如果一样就跳过
+    gfc = GetFileSizeAndNum()  # 获取目录大小 文件数量
+    gfd = GetFileSizeAndNum()  # 获取目录大小 文件数量
+    totalSizeC, fileNumC, dirNumC, totalSizeConversionC = gfc.main_start(f_path_c)
+    totalSizeD, fileNumD, dirNumD, totalSizeConversionD = gfd.main_start(f_path_d)
+    return totalSizeC, fileNumC, dirNumC, totalSizeConversionC, totalSizeD, fileNumD, dirNumD, totalSizeConversionD
+
+def for_one_in_common_list_c_sorted(common_list_c_sorted, common_list_d_sorted):
+    FolderEE_sorted = common_list_c_sorted[0]
+    FolderSVN_sorted = common_list_d_sorted[0]
+    print('NOT SAME -- %s' % FolderEE_sorted)
+    dirCompare(FolderEE_sorted, FolderSVN_sorted)
+    common_list_c_sorted.pop(0)
+    common_list_d_sorted.pop(0)
+    return common_list_c_sorted, common_list_d_sorted
+
+def traversal_common_c(common_list_c, common_list_d):
+    # 遍历每个共同目录
+    common_list_in_C = []
+    common_list_in_D = []
+    for num_c, FolderEE in enumerate(common_list_c):
+        # if FolderEE != r'D:\00_Backup\00Programs1':  # 用于调试，单独备份某个文件夹
+        #     continue
+        FolderSVN = common_list_d[num_c]
+        totalSizeC, fileNumC, dirNumC, totalSizeConversionC, totalSizeD, fileNumD, dirNumD, totalSizeConversionD = quick_compare(FolderEE, FolderSVN)
+        if totalSizeC == totalSizeD and fileNumC == fileNumD and dirNumC == dirNumD:
+            continue
+        else:
+            # 获取每个文件夹目录下的文件总大小，不包含子文件夹
+            file_num_c, file_size_c = visitDir(FolderEE)
+            file_num_d, file_size_d = visitDir(FolderSVN)
+            if file_num_c == file_num_d and file_size_c == file_size_d:
+                print('SAME TOTAL FILES -- %s' % FolderEE)
+            else:
+                common_list_in_C.append(FolderEE)
+                common_list_in_D.append(FolderSVN)
+    return common_list_in_C, common_list_in_D
+
+def visitDir(path):
+    totalSize = 0
+    fileNum = 0
+    for lists in os.listdir(path):
+        sub_path = os.path.join(path, lists)
+        # print(sub_path)
+        if os.path.isfile(sub_path):
+            fileNum = fileNum+1                      # 统计文件数量
+            totalSize = totalSize+os.path.getsize(sub_path)  # 文件总大小
+        elif os.path.isdir(sub_path):
+            # dirNum = dirNum+1                       # 统计文件夹数量
+            # visitDir(sub_path)                           # 递归遍历子文件夹
+            pass
+    return fileNum, totalSize
+
+
+def run(path):
+    # 先统一目录
+    list_c = is_dir(path)
+    for f_path_c in list_c: # 需要遍历的文件路径
+        # print('开始比较: %s' % f_path_c)
+        f_path_d = f_path_c.replace('D', 'F')
+        totalSizeC, fileNumC, dirNumC, totalSizeConversionC, totalSizeD, fileNumD, dirNumD, totalSizeConversionD = quick_compare(f_path_c, f_path_d)
+        if totalSizeC == totalSizeD and fileNumC == fileNumD and dirNumC == dirNumD:
+            print("SAME -- %s  totalSizeC: %s, fileNumC: %s, dirNumC: %s" % (f_path_c, totalSizeConversionC, fileNumC, dirNumC))
+            continue
+        else:
+            print('开始同步: %s' % f_path_c)
+            common_list_c, common_list_d = catalogueCompare(f_path_c, f_path_d)  # 调用函数 同步文件夹目录 返回共同目录
+            common_list_c.append(f_path_c)  # 把根目录加进去，同步根目录下的文件
+            common_list_d.append(f_path_d)
+            # 相同文件夹过滤，返回子文件总和不同的文件夹list
+            common_list_c_processing, common_list_d_processing = traversal_common_c(common_list_c, common_list_d)
+            for num_c, FolderEE_sorted in enumerate(common_list_c_processing):
+                # if FolderEE != r'D:\00_Backup\00Programs1':  # 用于调试，单独备份某个文件夹
+                #     continue
+                FolderSVN_sorted = common_list_d_processing[num_c]
+                print('NOT SAME -- %s' % FolderEE_sorted)
+                dirCompare(FolderEE_sorted, FolderSVN_sorted)
+
+
+
+if __name__ == '__main__':
+    print("Start Run!")
+    old_time = datetime.datetime.now()
+    print(old_time.strftime('%Y-%m-%d %H:%M:%S',))
+
+    path = r"D:\00_Backup"
+    run(path)
+
+    new_time = datetime.datetime.now()
+    print(new_time.strftime('%Y-%m-%d %H:%M:%S',))
+    time = (new_time - old_time).seconds
+    print(time, '秒')
+    print("Finish Run!")
+```
+
+
 
 ```python
 # -*-coding:utf-8-*-
