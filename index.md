@@ -13,7 +13,7 @@ Neural Network [CNN, RNN, GAN]
 [https://rogerjtx.github.io/neural_network/](https://rogerjtx.github.io/neural_network/)
  
 Word2Vector [ELMo, Bert, ALBert]    
-[https://rogerjtx.github.io/word2vector.io/](https://rogerjtx.github.io/word2vector.io/) 
+[https://rogerjtx.github.io/word2vector/](https://rogerjtx.github.io/word2vector/) 
 
 Topbase Knowledge Graph Paper Reproduction And Technical Documentation  
 [https://rogerjtx.github.io/topbase_knowledge_graph/](https://rogerjtx.github.io/topbase_knowledge_graph/)

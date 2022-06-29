@@ -34,13 +34,9 @@
         <entry file="file://$PROJECT_DIR$/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="800">
-                <caret line="252" column="9" selection-start-line="252" selection-start-column="9" selection-end-line="252" selection-end-column="9" />
+              <first_editor relative-caret-position="44">
+                <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="81" />
                 <folding>
-                  <element signature="e#0#14#0" expanded="true" />
-                  <element signature="e#0#14#0" expanded="true" />
-                  <element signature="e#0#11#0" expanded="true" />
-                  <element signature="e#0#9#0" expanded="true" />
                   <element signature="e#0#13#0" expanded="true" />
                   <element signature="e#0#9#0" expanded="true" />
                   <element signature="e#0#15#0" expanded="true" />
@@ -74,6 +70,13 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+      <find>邮箱</find>
+      <find>匹配邮箱</find>
+      <find>正则</find>
+      <find>add</find>
+      <find>xlsx</find>
+      <find>excel</find>
+      <find>tqdm</find>
       <find>windows</find>
       <find>username</find>
       <find>config</find>
@@ -96,14 +99,7 @@
       <find>requests</find>
       <find>shel</find>
       <find>shell</find>
-      <find>user.name</find>
-      <find>git</find>
-      <find>.*?</find>
-      <find>cur</find>
-      <find>游标</find>
-      <find>Cursor</find>
-      <find>js</find>
-      <find>发送</find>
+      <find>topbase_knowledge_graph</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;</replace>
@@ -143,23 +139,25 @@
         <option value="$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/198530_2_6/baike_research_field_extractor.py" />
         <option value="$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/6228492_9_40/expert_article_api_import_to_project.py" />
         <option value="$USER_HOME$/AppData/Local/Temp/scp23199/home/liangzhi/back_services/ocr_api_service/ocr_api_kejiting_plus_threading_6.py" />
+        <option value="$PROJECT_DIR$/test/test01.py" />
         <option value="$PROJECT_DIR$/index.md" />
-        <option value="$PROJECT_DIR$/basic/backup_test/backup_hash.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1023" />
-    <option name="y" value="-2171" />
-    <option name="width" value="3863" />
-    <option name="height" value="2183" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="240" />
+    <option name="y" value="128" />
+    <option name="width" value="1440" />
+    <option name="height" value="773" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -171,6 +169,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -185,7 +184,8 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -199,7 +199,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.backup_hash">
+  <component name="RunManager" selected="Python.test01">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="RogerJTX.github.io" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -214,25 +214,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="backup_hash" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="RogerJTX.github.io" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/basic/backup_test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basic/backup_test/backup_hash.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -263,9 +244,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test01" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="RogerJTX.github.io" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/test01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.backup_hash" />
+        <item itemvalue="Python.test01" />
         <item itemvalue="Python.linshi" />
       </list>
     </recent_temporary>
@@ -359,22 +362,13 @@
       <workItem from="1653271019315" duration="1932000" />
       <workItem from="1653465097573" duration="5238000" />
       <workItem from="1653841269758" duration="4421000" />
-      <workItem from="1654763502768" duration="1853000" />
-      <workItem from="1655115736700" duration="9543000" />
-      <workItem from="1655256780460" duration="2259000" />
-      <workItem from="1655640188305" duration="10490000" />
-      <workItem from="1655992313232" duration="5361000" />
-      <workItem from="1656051465307" duration="9396000" />
-      <workItem from="1656319175066" duration="1576000" />
-      <workItem from="1656490578429" duration="1639000" />
-      <workItem from="1656492288282" duration="970000" />
-      <workItem from="1656493363903" duration="55000" />
-      <workItem from="1656493453386" duration="370000" />
+      <workItem from="1656495193779" duration="884000" />
+      <workItem from="1656497330346" duration="2244000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="364030000" />
+    <option name="totallyTimeSpent" value="323646000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -386,15 +380,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1019" y="-2167" width="2575" height="1455" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Structure" order="0" sideWeight="0.943609" side_tool="true" visible="true" weight="0.14024633" />
+      <window_info active="true" id="Structure" order="0" sideWeight="0.943609" side_tool="true" visible="true" weight="0.2077748" />
       <window_info id="Favorites" order="1" sideWeight="0.50075185" side_tool="true" weight="0.08409506" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39970282" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32986626" />
@@ -402,12 +396,12 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32986626" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.27637443" />
-      <window_info anchor="bottom" x="-990" y="-1738" width="2517" height="596" id="Python Console" order="12" visible="true" weight="0.33655274" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.44718793" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.35661218" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="3" sideWeight="0.5506608" visible="true" weight="0.15137067" />
+      <window_info anchor="right" content_ui="combo" id="Project" order="3" sideWeight="0.5506608" weight="0.25201073" />
       <window_info anchor="right" id="SciView" order="4" weight="0.32934132" />
       <window_info anchor="right" id="Database" order="5" show_stripe_button="false" sideWeight="0.48892674" weight="0.32820097" />
       <window_info anchor="right" x="0" y="0" width="465" height="926" id="Documentation" order="6" sideWeight="0.51107323" side_tool="true" weight="0.32819825" />
@@ -439,9 +433,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/RogerJTX_github_io$backup_hash.coverage" NAME="backup_hash Coverage Results" MODIFIED="1656492628672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic/backup_test" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Word2Vector/Word2Vector.md" />
@@ -515,9 +506,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/scp55782/home/liangzhi/back_services/ocr_api_service/ocr_api_kejiting_plus_threading_1.py" />
-    <entry file="file://$PROJECT_DIR$/index_md_auto_git.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -525,26 +513,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic/backup_test/backup_hash.py">
+    <entry file="file://$PROJECT_DIR$/test/test01.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="654">
-          <caret line="312" column="40" selection-start-line="312" selection-start-column="33" selection-end-line="312" selection-end-column="40" />
-          <folding>
-            <element signature="e#355#379#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="21">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="800">
-            <caret line="252" column="9" selection-start-line="252" selection-start-column="9" selection-end-line="252" selection-end-column="9" />
+          <first_editor relative-caret-position="44">
+            <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="81" />
             <folding>
-              <element signature="e#0#14#0" expanded="true" />
-              <element signature="e#0#14#0" expanded="true" />
-              <element signature="e#0#11#0" expanded="true" />
-              <element signature="e#0#9#0" expanded="true" />
               <element signature="e#0#13#0" expanded="true" />
               <element signature="e#0#9#0" expanded="true" />
               <element signature="e#0#15#0" expanded="true" />
