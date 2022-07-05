@@ -168,15 +168,6 @@ Medical Image Recognition [COVID-19]
 
 
 
-
-
-
-
-
-
-
-
-
 # Programming Notes Start
 
 ----------------------------------------
@@ -1713,6 +1704,7 @@ shell可以说是Linux命令集的概称，属于命令行的人机界面。shel
 
 cp /d/00_Shell/backup.txt ./test
 ```
+
 
 ```bash
 #!/bin/bash
@@ -11523,9 +11515,6 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/RogerJTX/RogerJTX.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 [Jekyll](https://jekyllrb.com/)
-
-
-    
 
 
 
