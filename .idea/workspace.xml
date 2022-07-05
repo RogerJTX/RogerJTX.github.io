@@ -34,27 +34,26 @@
         <entry file="file://$PROJECT_DIR$/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="44">
-                <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="81" />
+              <first_editor relative-caret-position="-728">
+                <caret line="708" selection-start-line="708" selection-end-line="708" />
                 <folding>
+                  <element signature="e#0#14#0" expanded="true" />
+                  <element signature="e#0#14#0" expanded="true" />
+                  <element signature="e#0#11#0" expanded="true" />
+                  <element signature="e#0#9#0" expanded="true" />
                   <element signature="e#0#13#0" expanded="true" />
                   <element signature="e#0#9#0" expanded="true" />
                   <element signature="e#0#15#0" expanded="true" />
+                  <element signature="e#358#382#0" expanded="true" />
+                  <element signature="e#293#317#0" expanded="true" />
                   <element signature="e#0#28#0" expanded="true" />
                   <element signature="e#0#11#0" expanded="true" />
                   <element signature="e#0#32#0" expanded="true" />
+                  <element signature="e#14#24#0" expanded="true" />
+                  <element signature="e#156#169#0" expanded="true" />
                 </folding>
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="26" selection-start-column="26" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -70,8 +69,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>邮箱</find>
-      <find>匹配邮箱</find>
       <find>正则</find>
       <find>add</find>
       <find>xlsx</find>
@@ -100,6 +97,8 @@
       <find>shel</find>
       <find>shell</find>
       <find>topbase_knowledge_graph</find>
+      <find>git config</find>
+      <find>markdown</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;</replace>
@@ -140,15 +139,16 @@
         <option value="$USER_HOME$/AppData/Local/Temp/Mxt200/RemoteFiles/6228492_9_40/expert_article_api_import_to_project.py" />
         <option value="$USER_HOME$/AppData/Local/Temp/scp23199/home/liangzhi/back_services/ocr_api_service/ocr_api_kejiting_plus_threading_6.py" />
         <option value="$PROJECT_DIR$/test/test01.py" />
+        <option value="$PROJECT_DIR$/new/raise.py" />
         <option value="$PROJECT_DIR$/index.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="240" />
-    <option name="y" value="128" />
-    <option name="width" value="1440" />
-    <option name="height" value="773" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1023" />
+    <option name="y" value="-2160" />
+    <option name="width" value="2576" />
+    <option name="height" value="1833" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -158,6 +158,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -169,13 +170,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/gitlab_TianPeng/TianPeng" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/new" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -185,7 +185,12 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\00_Backup\00_jtx_code\RogerJTX.github.io\new" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -199,7 +204,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test01">
+  <component name="RunManager" selected="Python.raise">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="RogerJTX.github.io" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -244,6 +249,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="raise" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="RogerJTX.github.io" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/new" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/new/raise.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test01" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="RogerJTX.github.io" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -268,13 +295,14 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.raise" />
         <item itemvalue="Python.test01" />
         <item itemvalue="Python.linshi" />
       </list>
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\JK-TP\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -363,12 +391,13 @@
       <workItem from="1653465097573" duration="5238000" />
       <workItem from="1653841269758" duration="4421000" />
       <workItem from="1656495193779" duration="884000" />
-      <workItem from="1656497330346" duration="2244000" />
+      <workItem from="1656497330346" duration="3528000" />
+      <workItem from="1656898647544" duration="3911000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="323646000" />
+    <option name="totallyTimeSpent" value="328841000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -380,10 +409,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-1019" y="-2160" width="1717" height="1222" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" id="Structure" order="0" sideWeight="0.943609" side_tool="true" visible="true" weight="0.2077748" />
+      <window_info active="true" id="Structure" order="0" sideWeight="0.943609" side_tool="true" visible="true" weight="0.108499095" />
       <window_info id="Favorites" order="1" sideWeight="0.50075185" side_tool="true" weight="0.08409506" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -396,13 +425,13 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32986626" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.44718793" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.35661218" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.24079065" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.57064474" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Project" order="3" sideWeight="0.5506608" weight="0.25201073" />
-      <window_info anchor="right" id="SciView" order="4" weight="0.32934132" />
+      <window_info anchor="right" content_ui="combo" id="Project" order="3" sideWeight="0.5506608" visible="true" weight="0.18565401" />
+      <window_info anchor="right" id="SciView" order="4" weight="0.32908848" />
       <window_info anchor="right" id="Database" order="5" show_stripe_button="false" sideWeight="0.48892674" weight="0.32820097" />
       <window_info anchor="right" x="0" y="0" width="465" height="926" id="Documentation" order="6" sideWeight="0.51107323" side_tool="true" weight="0.32819825" />
     </layout>
@@ -506,6 +535,8 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/scp55782/home/liangzhi/back_services/ocr_api_service/ocr_api_kejiting_plus_threading_1.py" />
+    <entry file="file://$PROJECT_DIR$/test/test01.py" />
+    <entry file="file://$PROJECT_DIR$/new/raise.py" />
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -513,25 +544,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="44">
-            <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="81" />
+          <first_editor relative-caret-position="-728">
+            <caret line="708" selection-start-line="708" selection-end-line="708" />
             <folding>
+              <element signature="e#0#14#0" expanded="true" />
+              <element signature="e#0#14#0" expanded="true" />
+              <element signature="e#0#11#0" expanded="true" />
+              <element signature="e#0#9#0" expanded="true" />
               <element signature="e#0#13#0" expanded="true" />
               <element signature="e#0#9#0" expanded="true" />
               <element signature="e#0#15#0" expanded="true" />
+              <element signature="e#358#382#0" expanded="true" />
+              <element signature="e#293#317#0" expanded="true" />
               <element signature="e#0#28#0" expanded="true" />
               <element signature="e#0#11#0" expanded="true" />
               <element signature="e#0#32#0" expanded="true" />
+              <element signature="e#14#24#0" expanded="true" />
+              <element signature="e#156#169#0" expanded="true" />
             </folding>
           </first_editor>
           <second_editor />
