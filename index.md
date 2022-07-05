@@ -8417,6 +8417,13 @@ result = re.findall(r"\b(?:[0-9]{1,3}\.){3}[0-9]{1,3}\b", string_ip)
 
 #### 1.SFTP 安装和使用
 
+#### 2.markdown 相关插件安装
+
+https://blog.csdn.net/pxyp123/article/details/124331401
+
+
+#### 3.更新代码到github
+
 
 
 
