@@ -1239,6 +1239,34 @@ done
 4. 建议使用 git push origin master
 
 
+
+
+#### 25.git .gitignore --指定不上传的文件夹
+
+在使用 vue-cli 脚手架的时候，有一个依赖模板文件夹是不希望被上传到git上的，因为里面文件太多了。
+
+![](index_images/a8e0f272.png)
+
+解决办法：手动创建git忽略push清单，node_module以及自身
+
+1.文件夹内右键git bash，输 touch .gitignore，注意中间有空格。
+
+2.编辑器打开生成的 .gitignore 文件，加入:
+
+    node_modules
+     
+    /*以及其他你想要忽略的文件或文件夹*/
+
+3.以后再add到暂存区的时候就会忽略你配置的文件或文件夹了。
+
+忽略具体的文件或文件夹：
+
+    /target/  // 忽略这个target 目录
+    log/*     // 忽略log下的所有文件
+    css/*.css // 忽略css目录下的.css文件
+
+
+
 # Python MongoDB 操作
 Pycharm编辑器下mongo数据库的可视化配置安装(结果安装了没有可视化功能)  
 添加mongo插件和配置mongo shell地址(Shell 是一个应用程序，它连接了用户和 Linux 内核，让用户能够更加高效、安全、低成本地使用 Linux 内核，这就是 Shell 的本质。)  
