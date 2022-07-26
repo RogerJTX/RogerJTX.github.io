@@ -1308,6 +1308,9 @@ fatal: Cannot open existing pack file '.git/objects/pack/pack-*.idx'
 移除doc/book/目录下提交的文件记录
 
     git filter-branch --force --index-filter 'git rm -rf --cached --ignore-unmatch  doc/book/**' --prune-empty --tag-name-filter cat -- --all
+    或者
+    git filter-branch --force --index-filter 'git rm -rf --cached --ignore-unmatch GO/GoWeb资料.zip --prune-empty --tag-name-filter cat -- --all
+    
 
 ![](index_images/0523bd2f.png)
 
