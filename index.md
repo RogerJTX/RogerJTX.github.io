@@ -227,6 +227,10 @@ Notes: rogerjtx.github.io
 
 **db.getCollection('news_leiphone').updateMany( {}, { $rename: { "time": "publish_time" }})**
 
+修value的值 全部
+
+**db.getCollection('hangzhou_dianzikeji_uni').update({},{$set:{"university":'杭州电子科技大学'}},false,true)**
+
 #### 4.直接在mongdb中删除重复数据
 
 https://www.jianshu.com/p/7685e6692ed6
@@ -1266,6 +1270,73 @@ done
     css/*.css // 忽略css目录下的.css文件
 
 
+#### 26.git push 大文件失败
+
+最近使用git时，不小心上传了大文件导致push超时缓慢，后面发现.git文件快2G了，于是进行了清理。清理步骤如下
+
+1.网上很多说是.git/objects/pack文件过大，最开始我的objects文件很多而pack文件下没有文件的，所以执行
+
+git verify-pack -v .git/objects/pack/pack-*.idx | sort -k 3 -g | tail -5
+
+报错
+
+fatal: Cannot open existing pack file '.git/objects/pack/pack-*.idx'
+
+    .git/objects/pack/pack-*.pack: bad
+
+执行git gc之后pack目录下就有文件了
+
+执行下面命令
+
+    find .git/objects/ -type f
+
+![](index_images/1c242a0f.png)
+
+执行git gc命令
+
+查找大文件
+
+    git verify-pack -v .git/objects/pack/pack-*.idx | sort -k 3 -n | tail -3   
+
+
+根据上面提交id看文件
+
+    git rev-list --objects --all|grep 7b83aa3d84cb2e523f019e979835a4ffcaf15064
+
+![](index_images/764eaea2.png)
+
+移除doc/book/目录下提交的文件记录
+
+    git filter-branch --force --index-filter 'git rm -rf --cached --ignore-unmatch  doc/book/**' --prune-empty --tag-name-filter cat -- --all
+
+![](index_images/0523bd2f.png)
+
+需要注意的是，此处可能会报错
+
+出现这个错误
+
+Cannot rewrite branches : You have unstaged changes
+
+解决方案:执行
+
+git stash即可解决。
+
+
+真正的删除
+
+    rm -rf .git/refs/original/
+    git reflog expire --expire=now --all
+    git gc --prune=now
+    git gc --aggressive --prune=now
+    git push origin master --force
+让远程仓库变小``
+    git remote prune origin
+
+
+参考：
+https://www.jianshu.com/p/fe3023bdc825
+https://www.manongdao.com/article-2342370.html
+http://www.360doc.com/content/21/1216/17/53036841_1008997896.shtml
 
 # Python MongoDB 操作
 Pycharm编辑器下mongo数据库的可视化配置安装(结果安装了没有可视化功能)  
@@ -5758,7 +5829,11 @@ else:
     os.mkdir(path_dir)
 ```
 
+#### 111.python 连续空格变成一个空格
 
+rf_clean = re.sub('、+', '、', rf)
+
+rf_clean = re.sub(' +', ' ', rf)
 
 # Math 数学基础
 
