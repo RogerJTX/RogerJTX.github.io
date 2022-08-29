@@ -34,8 +34,8 @@
         <entry file="file://$PROJECT_DIR$/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="255">
-                <caret line="1342" column="57" selection-start-line="1342" selection-start-column="57" selection-end-line="1342" selection-end-column="57" />
+              <first_editor relative-caret-position="185">
+                <caret line="2119" column="39" lean-forward="true" selection-start-line="2119" selection-start-column="4" selection-end-line="2119" selection-end-column="41" />
                 <folding>
                   <element signature="e#0#14#0" expanded="true" />
                   <element signature="e#0#14#0" expanded="true" />
@@ -43,16 +43,31 @@
                   <element signature="e#0#9#0" expanded="true" />
                   <element signature="e#0#13#0" expanded="true" />
                   <element signature="e#0#9#0" expanded="true" />
-                  <element signature="e#358#382#0" expanded="true" />
-                  <element signature="e#293#317#0" expanded="true" />
+                  <element signature="e#0#15#0" expanded="true" />
                   <element signature="e#0#28#0" expanded="true" />
                   <element signature="e#0#11#0" expanded="true" />
                   <element signature="e#0#32#0" expanded="true" />
-                  <element signature="e#14#24#0" expanded="true" />
-                  <element signature="e#156#169#0" expanded="true" />
                 </folding>
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Temp/scp23723/home/liangzhi/back_services/ocr_api_service/ocr_api_kejiting_plus_threading_1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="381">
+              <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Temp/scp57532/home/liangzhi/back_services/ocr_api_service/ocr_api_kejiting_online.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -68,7 +83,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>xlsx</find>
       <find>excel</find>
       <find>tqdm</find>
       <find>windows</find>
@@ -98,6 +112,7 @@
       <find>markdown</find>
       <find>git</find>
       <find>连续</find>
+      <find>pytesseract</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;</replace>
@@ -397,11 +412,16 @@
       <workItem from="1658134899677" duration="864000" />
       <workItem from="1658386614213" duration="860000" />
       <workItem from="1658455663296" duration="3311000" />
+      <workItem from="1660098983238" duration="1395000" />
+      <workItem from="1660268441252" duration="592000" />
+      <workItem from="1660526223136" duration="597000" />
+      <workItem from="1661414801910" duration="1306000" />
+      <workItem from="1661738448833" duration="4700000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="338003000" />
+    <option name="totallyTimeSpent" value="346593000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -413,9 +433,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Structure" order="0" sideWeight="0.943609" side_tool="true" visible="true" weight="0.16152816" />
+      <window_info id="Structure" order="0" sideWeight="0.943609" side_tool="true" visible="true" weight="0.13270777" />
       <window_info id="Favorites" order="1" sideWeight="0.50075185" side_tool="true" weight="0.08409506" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -428,7 +449,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32986626" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.36762688" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.29766804" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.57064474" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -436,7 +457,7 @@
       <window_info anchor="right" content_ui="combo" id="Project" order="3" sideWeight="0.5506608" weight="0.19036144" />
       <window_info anchor="right" id="SciView" order="4" weight="0.32908848" />
       <window_info anchor="right" id="Database" order="5" show_stripe_button="false" sideWeight="0.48892674" weight="0.32820097" />
-      <window_info anchor="right" x="0" y="0" width="465" height="926" id="Documentation" order="6" sideWeight="0.51107323" side_tool="true" weight="0.32819825" />
+      <window_info anchor="right" x="0" y="0" width="465" height="926" id="Documentation" order="6" sideWeight="0.51107323" side_tool="true" weight="0.02010724" />
     </layout>
     <layout-to-restore>
       <window_info id="Structure" order="0" sideWeight="0.943609" side_tool="true" visible="true" weight="0.13711151" />
@@ -547,11 +568,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp23723/home/liangzhi/back_services/ocr_api_service/ocr_api_kejiting_plus_threading_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp57532/home/liangzhi/back_services/ocr_api_service/ocr_api_kejiting_online.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="255">
-            <caret line="1342" column="57" selection-start-line="1342" selection-start-column="57" selection-end-line="1342" selection-end-column="57" />
+          <first_editor relative-caret-position="185">
+            <caret line="2119" column="39" lean-forward="true" selection-start-line="2119" selection-start-column="4" selection-end-line="2119" selection-end-column="41" />
             <folding>
               <element signature="e#0#14#0" expanded="true" />
               <element signature="e#0#14#0" expanded="true" />
@@ -559,13 +594,10 @@
               <element signature="e#0#9#0" expanded="true" />
               <element signature="e#0#13#0" expanded="true" />
               <element signature="e#0#9#0" expanded="true" />
-              <element signature="e#358#382#0" expanded="true" />
-              <element signature="e#293#317#0" expanded="true" />
+              <element signature="e#0#15#0" expanded="true" />
               <element signature="e#0#28#0" expanded="true" />
               <element signature="e#0#11#0" expanded="true" />
               <element signature="e#0#32#0" expanded="true" />
-              <element signature="e#14#24#0" expanded="true" />
-              <element signature="e#156#169#0" expanded="true" />
             </folding>
           </first_editor>
           <second_editor />

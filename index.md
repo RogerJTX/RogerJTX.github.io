@@ -2119,6 +2119,8 @@ crontab -l
 
 >命令：cp /dev/null /home/liangzhi/nohup.out
 
+然后输入 y
+
 ![](index_images/85cb4c19.png)
 
 **说明：**
@@ -2593,6 +2595,10 @@ centos下安装：
     echo "export LD_LIBRARY_PATH=/usr/local/lib" >> /etc/profile
     echo "export LIBLEPT_HEADERSDIR=/usr/local/include" >> /etc/profile
     echo "export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig" >> /etc/profile
+    
+    添加tesseract环境变量
+    PATH=$PATH:/usr/local/bin
+    export PATH
     
     使配置立即生效
     source /etc/profile
